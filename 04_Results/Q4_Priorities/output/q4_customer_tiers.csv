@@ -1,0 +1,2027 @@
+ID,SpendTier,SpendTierAdj,PropTier,Profile,Profile_unadj,p_Q4,Segment
+5524,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7157357069356495,S3
+2174,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0276200167378631,S2
+4141,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0187741662579661,S2
+6182,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0142048092951047,S1
+5324,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0698769934116553,S3
+7446,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0093999077047041,S2
+965,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1487289404351102,S3
+6177,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1291607274828322,S2
+4855,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1494810577820193,S2
+5899,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4707234353040042,S2
+387,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0186414642196879,S1
+2125,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0453820358430754,S3
+8180,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.062936568144141,S2
+2569,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0743000899442036,S1
+2114,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8658759212576503,S3
+9736,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0439248839558878,S2
+4939,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0875641978091137,S1
+6565,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3815108990190844,S2
+2278,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3129588598092967,S1
+9360,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1095269400691448,S1
+5376,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.923891330476338,S3
+1993,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1094890331702008,S2
+4047,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0117118577377568,S2
+1409,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.06425681110549,S2
+7892,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.201254804752397,S1
+2404,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0302592526201445,S2
+9422,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0263617036418591,S1
+1966,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.355212445872794,S3
+6864,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0401372768942734,S1
+3033,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0647718123368132,S3
+5710,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0725909887488374,S2
+7373,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.148333117666767,S1
+8755,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0757860139634367,S3
+10738,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0688998505969405,S2
+4339,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0065300007507491,S3
+10755,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0734719960184712,S1
+8595,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.015917162050821,S2
+2968,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.874808304199432,S3
+8601,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0782748672461157,S3
+503,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0866118774096644,S2
+8430,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0240167895679909,S1
+2139,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0374463535509293,S1
+1371,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0260569930013356,S3
+9909,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1243125446417955,S1
+7286,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0891438115712924,S1
+6566,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1343702882584175,S2
+8614,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0045491296892285,S3
+4114,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1309760927530329,S3
+1331,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.214813373253338,S1
+2225,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7446898940906772,S3
+9381,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0133450490949534,S2
+6260,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.160768010723134,S3
+10383,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.099490540440934,S3
+7437,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0197198492257826,S2
+8375,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0217746837555324,S2
+6853,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4766432493553544,S3
+3076,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0140601332660195,S2
+1012,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1059851340438058,S2
+6518,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0842324525681221,S2
+4137,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0550346478191281,S3
+8082,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0514451797223499,S1
+1386,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0056461311421146,S2
+9369,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.357437338283559,S3
+4477,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0086350705775403,S3
+1357,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.028766062843088,S3
+1402,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1864176537441978,S3
+6312,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0323355444785442,S1
+8132,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1604993146550805,S2
+1050,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.008440965450601,S1
+5846,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2112433416416684,S1
+1859,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.480517458656532,S3
+7503,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.737004998831036,S3
+10401,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0195106480453394,S1
+1618,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3945709025285367,S2
+3332,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3523248323786293,S2
+2261,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.044937232312518,S1
+5346,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0731603689397929,S1
+535,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0164154336574706,S3
+5268,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0140079447346565,S1
+273,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0743133363490373,S2
+4452,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1949923133265083,S2
+8504,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1273640040358816,S3
+771,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0037632133909378,S3
+11178,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0717315269391368,S2
+2230,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0367548167342981,S2
+7516,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0109796537302822,S1
+7247,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3429021279267088,S2
+11100,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0795663857774759,S2
+4646,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1622818775703653,S3
+3037,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0626434719977273,S1
+1473,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0696853126961037,S2
+1016,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0458491181948355,S2
+4518,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0228720986973516,S1
+9370,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1971886451964852,S3
+8908,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0288769679305785,S3
+8373,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.004379081716593,S1
+7533,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0191692096279247,S2
+2683,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0079989788764691,S1
+3629,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2686373783518785,S2
+10991,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.1758288765105755,S3
+5077,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0078120613130953,S3
+7431,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7304296304715582,S2
+3267,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0138748959459934,S2
+999,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4430197347219289,S3
+9215,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2610733970714006,S2
+2286,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0567783217508765,S2
+1592,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5552352299227014,S3
+367,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2921393884857104,S1
+5234,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021730695696516,S1
+9862,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0278173687444345,S1
+9805,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0167101939178751,S2
+6205,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.085023860764858,S2
+8442,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0439675992286793,S1
+7386,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1273252638610927,S1
+7215,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7637294890757667,S3
+1491,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0743675606111978,S3
+11071,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4143574480590174,S3
+3381,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0074411540465358,S2
+11051,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0093216105673709,S2
+8026,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0227615968860895,S1
+433,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2127830724606815,S2
+9597,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0247108638504012,S1
+5290,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0592383727497048,S2
+1685,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.141005236296775,S3
+5342,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1209726531794041,S1
+9579,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.077540927907457,S2
+7660,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2232769722471074,S1
+1461,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1354362392727381,S2
+821,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2418159806940109,S3
+11084,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0081257959205884,S2
+8690,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0898822552614438,S3
+2937,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0755305987865057,S2
+9701,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1191829884442975,S1
+9949,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0163557470252654,S2
+10837,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0781583541271967,S1
+3120,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0356538104230046,S1
+5885,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1692962187104147,S2
+4050,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0120970688199745,S1
+3830,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0017980818158794,S3
+7987,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.022233962830306,S2
+7798,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.077041833412688,S2
+92,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0447508328441803,S1
+7055,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0526801626252336,S2
+10240,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5765958577176928,S2
+3025,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0671575761028599,S2
+9283,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0091023487755565,S3
+9970,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0037770894978816,S3
+2730,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0473986381083757,S3
+2795,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.101739600729267,S2
+9260,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.211703004964724,S2
+8182,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0245615883458834,S2
+10095,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1140113552540986,S3
+8475,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7481229783224961,S3
+4370,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.012458926668678,S1
+10573,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4218208479362868,S3
+3712,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1607419148924033,S2
+6637,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0664241022425019,S3
+3152,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0092624810783526,S1
+5610,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0057256213860051,S1
+6460,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0459288262185948,S1
+1349,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0248687068589944,S2
+1880,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021837499082154,S2
+641,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1291288945927623,S2
+8717,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1424937990472089,S3
+10314,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8191035576561749,S3
+10854,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0142264726028126,S2
+10492,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0031652858808117,S1
+7698,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0101630420569923,S2
+3559,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0179366133110954,S1
+10562,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0182403148716284,S3
+10796,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0223323813386035,S2
+2563,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0031227342995721,S1
+3518,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0985840091832093,S1
+5823,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0319575995527954,S2
+3934,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0142256427297503,S2
+6982,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0314758488357591,S3
+6431,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0821623906253907,S2
+9733,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2301354715598217,S1
+5602,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0539280934860609,S3
+1324,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0568175058834619,S1
+326,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0262234914558679,S2
+7224,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0097636250217442,S2
+6999,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0041760231455557,S2
+9938,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2784788437840328,S3
+6422,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2979046363590834,S3
+3182,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5065010021793184,S2
+7300,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0384861957394063,S2
+10424,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0783102412157925,S3
+8727,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0479483428822685,S3
+2798,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8777925062209562,S3
+1030,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1238634287930221,S2
+624,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.657563897647771,S1
+5176,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1239259099764575,S1
+5552,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1322255870215562,S1
+868,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0042419893790592,S2
+380,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.760058631936831,S2
+2677,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021737546397913,S1
+6521,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0080913395042922,S3
+6927,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1923547766545169,S2
+2877,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0611147878584003,S2
+0,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.020545855423572,S3
+1584,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0595581392658534,S2
+7264,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0330385790798301,S2
+6274,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4474044543921039,S3
+1377,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0725770284812807,S2
+454,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.073252905878178,S2
+1755,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0107867849805907,S1
+2075,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0178119432482388,S3
+4785,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0018043674910941,S2
+9076,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.207537857066406,S2
+7079,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1174703276727563,S2
+4653,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.089626276165679,S2
+7375,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1071362768981008,S2
+709,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0595154345717463,S2
+460,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3150068628376749,S3
+3726,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0452639150365411,S1
+6798,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.109568875872002,S2
+5341,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5139912779455681,S2
+1606,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0628851956230704,S1
+9617,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0325255236782769,S1
+3233,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0573632665020615,S3
+89,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0294239502858821,S1
+2936,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247785877497263,S2
+9449,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0265505111202377,S3
+7297,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0948202788171136,S1
+313,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1804479897057739,S3
+9940,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0612238811462467,S3
+10735,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1573710806617947,S2
+9529,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0970578781668757,S3
+6439,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1353011571124466,S2
+7411,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0121697846403722,S2
+2176,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8010009043352742,S2
+9265,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0486751168912396,S2
+8867,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4756174081986133,S3
+8932,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0766360857738211,S2
+10236,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1455233034974215,S1
+6340,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0703494952210314,S1
+10089,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9874400167110648,S3
+2227,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1456386071928071,S1
+10992,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0520516584026185,S2
+5304,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.443166611105582,S2
+309,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3148975571014869,S2
+3406,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0739576345468571,S3
+2661,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0563190243791053,S1
+3153,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1079479604858775,S2
+10264,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7363948778800126,S1
+1184,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0510800622591711,S2
+4200,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0137701667421467,S2
+9396,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2281232063840208,S1
+2387,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0868202016635514,S2
+6690,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0522244855516214,S2
+1225,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0885465271698464,S3
+9703,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5965051212412058,S2
+291,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0413191389489947,S3
+4557,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0374410473537235,S1
+2379,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5449834881253562,S3
+5726,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0461316961752985,S1
+3066,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0162754768343586,S2
+6336,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0076596449879463,S1
+10967,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0960681429248497,S1
+2304,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0084101189220444,S2
+3445,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2612500022315776,S1
+7828,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0181388970254159,S3
+3762,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5364982681866912,S3
+4391,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0703892003890787,S2
+4669,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0197135239549253,S1
+1672,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0083071964763897,S3
+8962,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0070582488565923,S2
+9974,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0586709917622534,S1
+10983,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0348382884464134,S3
+8148,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0884005622471418,S1
+10102,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1189322078655129,S3
+4697,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3020538712089465,S2
+9262,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2269482776207748,S1
+7254,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0335730212909443,S2
+4543,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4019376511798346,S3
+4927,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.034627493445203,S1
+10451,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0204268533542883,S1
+2926,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.303984762251196,S2
+2874,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1812770891860278,S1
+9738,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1097831528040789,S2
+7119,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1076595873303689,S3
+3924,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0607749901317406,S2
+5827,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0286819599457041,S2
+5596,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0123971505399918,S2
+10812,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0361670050669207,S3
+1717,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0732730743722503,S2
+9491,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.028675866878348,S1
+9274,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1915783181372042,S3
+6609,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3358869840792851,S1
+6963,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1182739568504428,S3
+4440,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0453647252065773,S2
+1379,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0377946584366372,S2
+10032,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0878424543694474,S1
+2826,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0143991815083208,S2
+6320,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1693069816248347,S3
+3050,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0092237334699944,S2
+231,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0103677788747095,S2
+2392,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0226647183160954,S2
+9478,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2924186549668645,S3
+113,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0173522751656625,S1
+1802,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0081779455607083,S3
+520,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0463034283342585,S1
+8275,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0680643641301742,S2
+9750,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5145613438991828,S2
+2607,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1544080024366527,S2
+7214,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0551028155638785,S3
+5835,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2815103741508445,S2
+3896,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021396776588436,S2
+10350,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0557205726816709,S2
+7786,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.433531092784844,S2
+2861,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1535333288447902,S1
+663,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1245237393758121,S3
+10675,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0817898844355416,S2
+2521,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.46503325291593,S2
+9592,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0417582849393703,S1
+10151,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0230059063817924,S3
+7381,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9777965047991156,S3
+4099,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0935243271949883,S1
+9560,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3735347244118893,S3
+10172,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.240182989971874,S3
+11191,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.051773613205888,S1
+9707,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.364993938410585,S2
+6245,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0186724301189239,S3
+8234,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0403758979884698,S1
+1411,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1131609017247585,S3
+8553,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0163683034220778,S2
+1826,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0602892101659689,S3
+8842,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1215011089964372,S1
+11030,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1641907419008772,S2
+2579,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0088453390822968,S3
+175,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8514888261674806,S3
+9185,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2891479420648963,S3
+11056,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0446371306176639,S3
+9365,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3681233548004755,S2
+6201,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0237249787764873,S2
+2061,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0483958981923371,S2
+6184,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.192453486849307,S3
+6142,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0467989776836149,S3
+4107,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0144456086583421,S3
+7274,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.312386061177039,S3
+9336,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0242504458601838,S2
+2958,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0166081520316932,S1
+5837,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.08364542071701,S2
+10704,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0869729876558968,S2
+5125,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0402154473274892,S3
+4432,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1880562869285658,S1
+5955,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1105082597905475,S3
+2928,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.1326396769659355,S2
+5680,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0155761431762616,S1
+10313,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0786607387778406,S2
+2557,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4912034895369526,S1
+1245,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1931959491806571,S2
+1519,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1759795212810879,S2
+10703,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3102317448512638,S2
+1726,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.6077816090580103,S1
+4459,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1798218429948606,S1
+1729,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0154207465225078,S2
+1517,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1274990360368444,S1
+2098,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2399131829901174,S2
+9543,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0193660064615685,S1
+6878,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2387397141787904,S1
+2724,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0497738501147095,S2
+948,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1530272061073735,S1
+6720,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0616744149091994,S2
+6202,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0176036906120021,S3
+2066,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0523730121626647,S2
+9799,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0513027642498867,S2
+8318,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1713182191390619,S3
+5642,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0194906978964671,S2
+2669,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0481239762380097,S3
+455,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.161312695576154,S2
+7683,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0034943879219794,S2
+3428,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0242883735879337,S3
+7414,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0712457015963055,S2
+6354,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1103583494264153,S1
+798,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1739449373555056,S1
+8213,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1278583193683463,S1
+2488,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1266290016016734,S2
+9999,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0837700626089503,S3
+7617,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0461393604913001,S2
+615,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1048474427207394,S1
+2552,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1553654092665961,S2
+194,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0050119086939428,S2
+3645,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5455255566684368,S1
+8890,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0518629172254203,S2
+5049,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1662510139636242,S2
+9973,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0135532719454641,S2
+7301,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3717468653040425,S1
+10882,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0261326341110504,S3
+7030,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1126496262802401,S2
+7422,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2283519942734215,S1
+3523,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0320982856384791,S3
+7106,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0251765675959396,S3
+6504,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2074042072382704,S1
+5067,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.698877744319794,S3
+4216,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7521245500302681,S3
+8581,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0660240830794781,S2
+5929,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0379990530684842,S2
+6528,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.018231133673573,S1
+1361,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2001012863758051,S3
+6932,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7328003440769277,S3
+7284,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0059790797178916,S2
+1340,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4179045883435339,S3
+8746,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.068430805776555,S3
+5987,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0095916540977166,S1
+3767,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.007498620337756,S3
+3725,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9894391297348542,S3
+4324,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2681302815802705,S2
+238,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1656064774802519,S2
+6694,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0085098323848476,S3
+498,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.050057315846052,S2
+9347,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0175657623128032,S2
+9699,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0153335373570182,S3
+10664,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.096671428755406,S2
+5455,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0953811865645277,S2
+456,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0827295821569433,S1
+5012,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0338373792984617,S1
+7495,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0201212418804704,S3
+5029,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0313759948330402,S1
+2106,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0200138971033086,S1
+10364,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1263035977381626,S1
+5954,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1876189726444596,S2
+1137,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7792290257293277,S3
+2541,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0500263602064169,S1
+1142,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0090874547864986,S3
+2276,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.038039134251873,S3
+2807,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0348977032711881,S2
+6471,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0878015959608197,S1
+6131,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0073161246992909,S3
+6233,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0386723409617107,S2
+4148,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0377360777654188,S2
+4947,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9106894339347706,S3
+3225,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3965319209373076,S2
+7540,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0017302349215452,S3
+10648,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1295115981530799,S3
+1992,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0318587625931775,S2
+7851,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0290981169847394,S3
+8594,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0658852961436544,S2
+2815,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0277264362130925,S1
+2416,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0556887893481412,S3
+7999,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7370040984269343,S3
+9213,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2863818735296941,S1
+9697,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0026004100413684,S2
+3916,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.1419856342125326,S2
+2021,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0132243636093951,S3
+1581,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0336514805082818,S1
+564,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.4217190150018745,S2
+6619,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0282784352505007,S2
+9081,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0321322126203943,S1
+178,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0189364928215717,S2
+916,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0329415706221842,S2
+5512,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0029776767070818,S2
+8970,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0934172426360534,S2
+10581,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3009490521691235,S2
+5300,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0396813633247492,S1
+5154,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1273646181866522,S2
+8346,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8837521880236239,S2
+1676,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0092057076110135,S2
+9286,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1287693383569302,S3
+2426,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.1302095562445932,S3
+5172,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0100046019942418,S2
+5562,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0105310163210218,S2
+3436,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0171316012867139,S2
+3921,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3709005564589019,S1
+3403,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0756713123832885,S3
+22,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2983551469805672,S2
+10965,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.086920855794542,S3
+9426,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.2028101638987993,S2
+6605,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4865587745663453,S2
+3136,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0501878532375585,S3
+8737,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0112529852562834,S2
+11088,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0505960805996459,S3
+716,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0081173510022742,S3
+466,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0132111293199585,S3
+9135,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0925349335288343,S1
+10623,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0108139475268111,S2
+8151,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0354212720100464,S1
+5140,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1231402773622966,S2
+4945,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2174687075652584,S2
+10584,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0101534168930389,S3
+6071,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0357441925290336,S3
+3386,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0311146852735749,S3
+8939,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0874387317028504,S1
+9925,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.6179538624738982,S2
+4320,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0323036816911612,S3
+5389,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.016928886387646,S2
+6036,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0996662168764428,S3
+182,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.093213379593676,S2
+203,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1398755812621151,S3
+11025,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0562457393308836,S2
+10203,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.097394475892304,S1
+4607,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0417681479813575,S3
+3711,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5188258259955443,S3
+3696,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0299991987038977,S2
+2532,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3761200220323241,S3
+9214,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0183426448956226,S2
+4943,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4811149333563678,S2
+35,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1396555245401281,S1
+2258,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0715144501463485,S1
+4322,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0277164084450647,S3
+713,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0102038892479106,S3
+4702,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5804986815837743,S3
+3281,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0291333742617697,S2
+702,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0717018585016266,S1
+2004,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0284278887154209,S3
+4769,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0274348525367,S2
+4437,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0236834246240441,S3
+8724,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1208645882976365,S1
+10741,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.056345950829374,S2
+1991,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0071713278461183,S2
+6931,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4173707652993562,S3
+11096,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0080056559885037,S1
+304,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1108498983621115,S1
+3665,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0538261706438716,S1
+10591,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.178008708123724,S2
+5036,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5733796080971909,S2
+5547,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.538156518724627,S3
+7822,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0116339507642376,S3
+8541,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0152696963031,S1
+10955,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1903837070295908,S3
+4368,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0232239507519478,S1
+9671,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0934446172452019,S1
+2256,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.007257465844486,S2
+4279,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.022467766973843,S1
+5371,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.30355444866778,S1
+9240,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0315983634887637,S2
+9460,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0803801317418057,S1
+9504,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0134054763783055,S3
+8692,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1054689764867773,S2
+448,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2694206093929591,S1
+8314,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4522649573356098,S3
+8420,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0352141555842412,S1
+3174,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.920959524938224,S3
+7685,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0245826380246334,S1
+3179,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3465499539761528,S3
+9780,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0063480026837784,S3
+10681,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0078596170797977,S1
+10232,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.044281391606966,S3
+4184,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0102979708416175,S2
+9120,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0749927949159227,S2
+891,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0175196401213452,S2
+10381,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.042972094139287,S2
+3525,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.037457173793829,S2
+6818,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0750868478924358,S1
+3526,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0209452115126792,S2
+8181,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2160332059599195,S1
+1029,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0314282743020068,S2
+7369,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0438907015204292,S2
+2574,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7388910515174845,S2
+8159,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0105295843251325,S2
+1160,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0219748045373443,S1
+10242,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0267741474683982,S2
+5253,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0461648363548091,S2
+5966,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1944296594565592,S2
+5081,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0164674595168237,S1
+5123,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0874543023937784,S1
+5756,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0134283544763858,S2
+8036,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0083687157494453,S2
+9058,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.996197677129351,S3
+5057,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0060570232656881,S3
+254,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0139218965705758,S2
+4179,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0250896047473648,S1
+3710,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3024197055271294,S2
+7627,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8894071663368184,S3
+4501,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1348832799311732,S3
+6424,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0139840669815438,S1
+3075,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.03542743412397,S3
+4992,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0635496286759385,S1
+5252,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2860083849233855,S1
+7444,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0152062051880666,S2
+6919,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0649503510846512,S1
+3537,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1404473156376245,S2
+10277,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.071140175923105,S2
+2453,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247370002088272,S2
+7972,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0686228529998007,S3
+895,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0203378258186251,S2
+1177,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0619722704420603,S2
+7141,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.513951084738671,S2
+8477,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1075691276069239,S1
+2457,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0086243360618353,S1
+988,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0807622096981193,S3
+7930,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1006683917654877,S1
+4587,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0813750756353421,S3
+6682,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0178207466168621,S1
+10299,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.2676437243572832,S3
+3083,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0258396731477066,S2
+8953,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.100913229270396,S2
+1503,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0455739451677765,S3
+8650,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0534627200235552,S1
+10862,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0231685126813319,S3
+2782,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0302881254507997,S2
+6941,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1361623184742745,S1
+10972,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.420903762038213,S3
+10708,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0852329167608089,S1
+6583,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3401742125990281,S3
+3641,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0698022800033512,S1
+10156,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1084941264108104,S3
+4299,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2055397577526013,S3
+3469,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3941443354578497,S1
+5063,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3350961348568303,S2
+10727,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0366601537493456,S2
+9624,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0226759835086178,S3
+4376,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3706445525624821,S1
+8923,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2313239387154153,S3
+8461,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0324045103640799,S2
+6945,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3166756522281647,S3
+944,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0246974090616327,S1
+1907,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2449473148932581,S2
+701,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0447821697237843,S3
+4149,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.081763096850782,S3
+2131,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3183025971278475,S2
+2942,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4163322842544054,S2
+1173,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8012012678803178,S3
+4381,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0378720506939065,S2
+4611,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5281353563782607,S3
+3376,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0669385639615437,S3
+4679,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0021237359014685,S3
+10928,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0178502993511118,S2
+4248,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1224461377042488,S3
+6728,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1296123188376254,S1
+6661,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0398023660559309,S2
+4725,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0094275919289554,S3
+3277,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2144860709612204,S2
+5555,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0863804242166411,unassigned
+2564,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0089594337808754,S2
+3867,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0327535573156062,S3
+6940,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3448750752750023,S2
+55,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0232133877360291,S2
+5084,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0103138474805217,S3
+1777,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0365412876472931,S1
+8162,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0795186549314772,S1
+10826,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0914472224717869,S1
+8754,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0446822422006204,S2
+1987,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247445133203807,S1
+11007,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1151781010778885,S2
+7426,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.010927460090206,S2
+9153,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0361661040884676,S3
+10379,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0149780805811895,S2
+9204,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.233899785185666,S1
+3197,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0057902098130335,S3
+6961,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0156061338586067,S1
+4673,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4654799066945827,S2
+9937,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0170470617359942,S3
+8779,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4714991982015544,S2
+9596,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0244377984545686,S3
+2891,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1078422281277347,S2
+4910,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2289591606890818,S2
+75,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0570573660021452,S1
+10120,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0091795704306629,S2
+6327,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0220298560183074,S3
+10142,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0683499125830386,S2
+9826,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.502642745537983,S3
+1501,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9835797675657348,S3
+10767,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.185305010415134,S3
+7279,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1698670869026483,S3
+7230,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4302760943384541,S2
+143,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1055864322511753,S3
+450,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0230213769387628,S3
+9316,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0078355405295049,S1
+6379,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1293662214623626,S2
+9239,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0063508866789424,S2
+8315,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.032052237568914,S1
+2868,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1972730996582703,S2
+10888,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0992988980546361,S3
+1277,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0632944756183151,S3
+9977,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0864305858072222,S3
+10196,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0285297625981913,S3
+6384,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1856468164040672,S2
+8029,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6354195190030439,S3
+968,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1184869810745416,S2
+4472,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0577109248106628,S3
+6991,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0961892551568193,S2
+3336,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2561025021411605,S2
+1940,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0434519042762271,S1
+1272,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1066108855889596,S2
+1388,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2069501401729236,S1
+1044,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.042833459464994,S3
+6969,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0376259230871924,S2
+10479,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1483594271544473,S3
+3619,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7353780196546541,S3
+1715,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0681351722540261,S1
+10159,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2440640278497316,S2
+1463,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0262355030906998,S1
+5114,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0449693928040364,S3
+4990,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0955714063528653,S2
+4329,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0282619944030089,S1
+10936,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2679002306317415,S3
+4692,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.674697157280934,S1
+6086,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0938572941477857,S3
+437,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0366683650442021,S3
+11171,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0394034009381437,S2
+11101,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.2935463370144697,S3
+5329,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0742372323708411,S2
+610,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3156964807540642,S2
+5956,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1003981196806844,S2
+10430,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7982102487871746,S2
+7875,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2423701304533895,S3
+7072,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0694882950533463,S3
+6255,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0040711240455428,S3
+6516,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0120754965560263,S1
+5564,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1479037083957833,S3
+5682,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0802344327390256,S2
+7458,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0560033965097381,S2
+5237,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0360188187684056,S2
+7761,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0534905883225143,S1
+5278,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1458392219364128,S3
+3560,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1616496566475076,S3
+7235,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.028014914009678,S1
+10548,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.011786035597916,S3
+2281,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.477600708524808,S1
+4073,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2621007668092708,S3
+6974,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1615435469039202,S3
+7938,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.008205503696424,S2
+3667,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.93070784717678,S3
+7723,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0205586149786822,S3
+3870,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0328286904949433,S3
+4012,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.207214228855725,S2
+5909,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.015687896796186,S2
+10470,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0712614738717787,S2
+6488,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0172324517231061,S2
+10270,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0464877249662908,S1
+6887,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0216997316697361,S2
+6406,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0173375124968333,S3
+7573,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7649503790439697,S2
+4508,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0842840549662464,S3
+221,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0281310961647142,S2
+5331,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1744102003487826,S3
+1911,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0817923481357933,S3
+20,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0140172133708746,S1
+8786,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0323337148878569,S2
+10582,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0067631431169009,S3
+1915,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1335491077300224,S3
+8897,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1374863916292892,S2
+2371,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0219688758329752,S2
+4303,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2262333981784131,S2
+6825,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.030969447073198,S2
+1072,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0968116252907594,S2
+4964,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0486678075232249,S3
+2461,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.036436926359584,S2
+10736,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.073655194880073,S3
+3194,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0492311369272368,S3
+10839,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0044417724199299,S1
+49,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0480447752115051,S1
+4290,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0197394416983079,S1
+10219,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0438093781061401,S1
+4211,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0286217698430235,S1
+1135,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0154371577821069,S2
+6299,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8932116900186371,S2
+10846,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1847175513852446,S2
+347,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2338796931636087,S2
+6543,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3337847029677876,S3
+10446,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.9480286983224012,S3
+3479,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.536112530047098,S1
+11075,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0095724302969071,S2
+4442,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0461912314494079,S1
+199,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3795614148552245,S2
+6722,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0173180907060404,S2
+796,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.3374408673276613,S2
+3749,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0362768403478957,S3
+8523,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.036214106217831,S2
+310,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0064662313918551,S3
+8629,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0645276803920646,S2
+236,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0355624161210271,S1
+9930,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.094803921006336,S3
+3483,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5232452610309508,S3
+4599,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.005393745146179,S2
+7326,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0050875906526215,S3
+7352,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0110298495300309,S3
+2350,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1191382854337513,S2
+9145,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0808406338408724,S3
+2964,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0239488321183421,S1
+5585,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1787566999003095,S1
+9687,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0536792275498894,S3
+3732,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0327078584987869,S3
+6303,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0332732483247523,S3
+11176,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0066737911741867,S3
+2986,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0060649761167499,S1
+7462,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.575562223134917,S1
+3900,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0040031616268238,S2
+7034,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0481875603825217,S1
+9493,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9329860964489894,S3
+1143,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0383513648779441,S1
+1,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1130133889794164,S2
+5989,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1243443069344671,S2
+9499,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0904871766668959,S2
+6768,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0449013958281233,S2
+2150,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2876846468480346,S3
+6646,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0120138854601838,S1
+4887,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0692916382935006,S1
+8560,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2653448224380376,S2
+3321,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0132465070318729,S2
+11003,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0421490494781654,S1
+10402,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0313313328092286,S2
+9904,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0262578322778373,S3
+6141,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3032048763169304,S2
+5687,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4173502998594847,S3
+10856,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0480526412820246,S2
+5121,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.1757094192509605,S2
+4186,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0180628971841295,S1
+368,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.026217103751282,S1
+3312,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0450190544421035,S1
+11121,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1566677515728579,S1
+5332,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0454994617463772,S3
+5848,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9494400619225696,S3
+10343,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4061334297893594,S3
+5935,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1339517236010537,S2
+2895,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0278531170542102,S2
+10262,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0722245042115044,S1
+7848,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0836742567188503,S2
+4856,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8919026874013717,S3
+7186,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0940237442743517,S2
+5794,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1185346091572728,S2
+1456,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2004088317780801,S1
+4877,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0076799085747214,S2
+425,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0402159867946502,S2
+3007,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0489482820260652,S2
+1031,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1478907559793872,S3
+4297,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247038782464111,S1
+807,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0321082565080583,S2
+9553,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0435861753147787,S1
+4271,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1688729316456289,S1
+4120,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.172357596494877,S1
+2036,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0239499998133363,S2
+115,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.051379802966767,S2
+4259,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1142580995149426,S2
+8687,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0104906677917217,S1
+2447,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1078429147851859,S1
+10140,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6394484810737332,S3
+9353,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.09663184926919,S3
+3623,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0182657792104105,S1
+738,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0350941832241463,S1
+7631,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0264490409369416,S3
+4789,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8967718690918052,S3
+773,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2214466448795432,S2
+10602,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0820372016441443,S1
+1446,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0495028731168968,S3
+3270,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1345988410919897,S1
+8443,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4689932641061336,S1
+9653,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0454573287796389,S2
+8916,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0976949328795211,S2
+8017,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0061908504337266,S2
+4597,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0408312988894226,S3
+7023,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4767347612556138,S2
+8086,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0114276661142018,S2
+8825,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0866130335493968,S2
+2930,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0321111984032641,S3
+1928,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4551170821300708,S2
+7108,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.278090854216716,S2
+10925,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0120085845441961,S3
+9960,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0106852644688643,S1
+9224,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4163041789605304,S2
+5519,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0337795159471121,S3
+5046,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0473199802529432,S3
+7037,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0752629310281945,S3
+905,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1340346175812761,S1
+8624,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0602460143899405,S3
+8945,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0417763159916217,S2
+6445,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.052922505238478,S3
+2727,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0154818936438972,S3
+6404,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0109643326154442,S2
+11074,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0351759639470081,S3
+10150,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4698316206566405,S3
+1968,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.09064594880246,S1
+6534,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0200623096213288,S2
+9485,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0181859282728561,S3
+7053,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2553747503718874,S3
+4654,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0235976433392867,S3
+9760,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2941448984497546,S2
+1048,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0597585003464872,S2
+10619,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6702098723559378,S3
+9308,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0408089035097467,S3
+10505,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0142111323846622,S3
+2625,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0235797949811122,S3
+4637,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6287838508451802,S3
+9972,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4961464121199034,S2
+4483,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1392773125162957,S3
+4487,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2406472330731862,S1
+4988,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0145172150798007,S1
+8931,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0565875198902978,S3
+5871,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2373963871017902,S1
+2008,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0476698322770158,S3
+3139,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.211313779524862,S3
+10673,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0448954846165718,S3
+5303,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0294727432104024,S3
+538,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0339579595594922,S1
+7922,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.529954676079966,S2
+5692,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0157741729212043,S1
+6383,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0437632130060291,S2
+1628,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0461743152342163,S3
+1204,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2028281968877251,S2
+3673,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0360718541472037,S3
+760,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.1670689811916403,S2
+8957,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3381600574823326,S2
+4128,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0385194770111452,S2
+6810,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5192647890105632,S3
+5386,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9352056485548524,S3
+8700,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.073280359581231,S1
+3202,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5530182562171284,S2
+1328,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0059111927581253,S3
+8405,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0307988596666741,S3
+6515,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.02070600324695,S1
+2882,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.077053637907382,S2
+7574,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0260591578541348,S1
+6387,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0986223701311821,S2
+5320,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1311636143298633,S2
+5048,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4996251727440353,S1
+8146,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0075934005190978,S2
+10031,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0861793069497313,S2
+5748,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0368557087229679,S1
+2134,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.168778374966041,S3
+1523,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0045039141494618,S2
+9665,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1935010393658485,S2
+4640,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0390919200153034,S3
+3635,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0298567907987698,S2
+3547,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1060320519124923,S1
+2456,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0236808238760114,S2
+5633,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0050801219891818,S2
+7801,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0131146712792949,S1
+10489,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.612199973208328,S3
+7011,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1164985347198891,S2
+2620,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1378241048599943,S2
+3933,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2947919173815509,S1
+10981,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0096740441712795,S3
+1734,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1034536974250622,S2
+10995,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1105085667329819,S1
+6357,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0466600468026181,S1
+9209,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0534444222802497,S3
+10286,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0036793738881928,S3
+2611,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.190533420201348,S3
+3308,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0092762444568945,S1
+5407,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2381271409529078,S2
+2166,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0615346767836826,S3
+3955,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0706957108445649,unassigned
+6634,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1356782693130319,S2
+5718,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5940468439405053,S3
+6872,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0170421266794958,S2
+8164,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0897402866482624,S3
+4580,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9136875799533938,S3
+9305,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0995228488622055,S3
+453,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.035075206367236,S2
+8545,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8444324291696764,S3
+9850,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1070845240940584,S1
+7378,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.756378943091265,S2
+7646,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0296641746605951,S3
+1640,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0125700451414326,S2
+8492,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0866344775884169,S3
+1212,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4009339667207439,S3
+9097,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0214013696156725,S2
+10473,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8768918456496262,S3
+7962,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8160952518091402,S3
+9984,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.822379165468552,S2
+5527,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.069003022790115,S1
+6374,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0933192128376417,S2
+7453,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4852768324022357,S3
+8952,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0432382380987089,S3
+8975,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.098155174524457,S1
+6119,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1469801198590901,S2
+5236,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7743044774687562,S2
+5723,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0077931927303576,S3
+1710,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.405495349194284,S2
+1970,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0604344740871489,S2
+5313,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0073644789552626,S2
+10634,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0142862725096443,S3
+7010,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0968760936340477,S3
+8562,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0191964412326474,S3
+3158,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0810602313466939,S1
+4436,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1541217945283094,S1
+5287,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0163951183328635,S2
+2445,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.106633891670546,S2
+6059,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1511996032423552,S2
+4550,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0040396852501615,S2
+4240,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.116835599148619,S1
+8911,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0371394144380134,S3
+3706,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5093962667225409,S1
+3628,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1021748222290966,S1
+10175,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0715226957487489,S2
+8985,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0536794093819106,S2
+5204,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4418202817708671,S3
+9220,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6285749652927534,S3
+9888,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0091587133040168,S3
+5263,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0935835463706214,S1
+9503,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3428942210809494,S1
+10613,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0205548246842482,S2
+67,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.051699360523455,S2
+6019,Low,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2153288420504645,S3
+5863,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0227564035468501,S2
+3717,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0509942678536364,S2
+6730,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0443619292108651,S2
+10749,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8934382060159262,S2
+4998,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1404188677496189,S3
+6287,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0320197321230254,S3
+5985,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.147774709257048,S2
+4754,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0106047112621464,S1
+4002,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0149210746259248,S3
+8870,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2646905268488266,S1
+966,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0216427773707223,S2
+9725,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0880297589878985,S2
+4475,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3119270996617183,S3
+5740,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.126251672786824,S1
+5731,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.058985998480193,S1
+7290,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.12061977256339,S3
+3846,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0675514935317277,S2
+8104,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1009373258523898,S2
+4507,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.291459390732063,S3
+11013,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0288694757690109,S3
+4491,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1342743846489985,S2
+3759,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0321490367315304,S2
+1162,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2169012355474484,S1
+2055,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2332829885621944,S1
+10766,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0055891008358773,S3
+4415,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0606294451723765,S1
+3005,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6760752490915489,S3
+2223,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3761380470449352,S2
+4817,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3646721605760423,S1
+2875,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0032915081787239,S3
+11112,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0625241498264934,S3
+3807,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0369545001434424,S2
+9197,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0081372103893296,S2
+10832,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0494281693884168,S2
+6421,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2035437926813817,S3
+4207,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5834316457228308,S3
+577,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0160108623744944,S1
+10855,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0552673269619857,S2
+3081,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1263003306494532,S1
+3535,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0920684096897729,S3
+247,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2402798100454895,S2
+8707,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2726803455804946,S3
+9523,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0232778013549565,S3
+6072,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8095889350960878,S3
+6295,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0878554003995679,S2
+10914,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0273735978553781,S1
+1509,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.995238182419043,S3
+5577,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0132310206460949,S2
+7348,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1470688618088348,S3
+1127,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.247115236794594,S3
+1833,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0864891226336798,S2
+9080,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1709371794760056,S2
+6466,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0130611630477311,S2
+9964,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0201775296891035,S3
+4790,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0124297313921288,S3
+10245,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.188044578375514,S3
+1109,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0665693997835668,S2
+6001,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0142286361260751,S3
+5538,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9195171243867162,S3
+10552,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0171910034306,S1
+1545,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1141973022477823,S2
+7409,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0223903701778987,S2
+4444,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0186594874403109,S1
+146,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.296745968961045,S3
+6271,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0109086701095105,S2
+4741,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0408390583395938,S2
+246,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0052258705652712,S2
+375,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0806204213668647,S3
+1524,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5686113700367734,S2
+10022,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0522515055124198,S2
+11010,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2638186176493298,S2
+4356,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1915058200895051,S2
+3885,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3509505473071087,S1
+1175,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2891338096271609,S1
+880,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0156891297781261,S1
+2320,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.029732632044601,S2
+850,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0197771876540975,S3
+4713,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1762606476944836,S2
+675,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1205573587858777,S2
+5025,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0463403308384037,S1
+2308,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.057798500994285,S2
+5995,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2506057901602493,S2
+6749,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3866089652671003,S2
+1010,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.005463256810212,S2
+8977,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0255371055339384,S1
+4756,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1738903493435403,S3
+3412,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0592010058072283,S2
+606,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0406027110480997,S1
+5961,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.009504607258818,S1
+2975,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2578059811744946,S3
+2894,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9284302022586908,S3
+7613,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0193283245964532,S2
+10542,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2001440793797241,S2
+8015,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1892682084156125,S3
+11166,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0423675818630078,S2
+523,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0419367788553228,S1
+4066,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0699365975416903,S1
+8414,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0945398589601467,S2
+819,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0597009990612095,S3
+4961,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0254613203068425,S2
+749,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1778094633125236,S2
+5430,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1492757282951453,S2
+7755,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.053130080348623,S2
+10525,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7198466055242208,S2
+1453,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1599652414273719,S2
+8310,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0826218890177711,S2
+10710,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0373133356433087,S1
+5031,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3698447394463008,S3
+2613,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0033841139131407,S3
+213,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0524048467082435,S2
+967,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0194827117650705,S2
+1077,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1040558789505836,S3
+7959,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0154188058782021,S3
+640,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0290549857133066,S3
+4252,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.004201503217834,S2
+6218,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0875733433257173,S2
+6905,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1049174095041218,S3
+5922,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0200151772968583,S2
+3598,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0047322867685316,S2
+6116,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0144509352444021,S1
+6263,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0251611762096199,S1
+10486,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0349295399972803,S3
+2410,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0368458696388026,S3
+193,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0230399403793324,S1
+8278,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4638782900505279,S2
+10660,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0770376742292703,S2
+8686,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0320827483729625,S1
+1604,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0081425424063493,S2
+5907,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0710914392474119,S2
+10669,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.004738061259262,S3
+2918,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0558616401704427,S2
+5735,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2995832196466679,S3
+359,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0456677824355121,S2
+8387,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0270261727223208,S2
+1829,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5161891586828765,S2
+3839,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0363519806123094,S1
+9392,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0446359005704324,S2
+2292,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0786607277079086,S1
+10466,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0096733970054593,S1
+9855,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0917310842335315,S2
+4088,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.089252476382957,S2
+5231,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.002109586548008,S2
+590,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4422936415300717,S3
+8732,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4575973497289354,S2
+2315,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0168781565298376,S1
+3515,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0239951804287189,S2
+2245,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0332362283334042,S2
+6606,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1160998298908137,S2
+5545,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0332154499318949,S3
+7342,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0961999166529839,S1
+837,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0107017056233742,S1
+9500,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0534265702762818,S1
+3602,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0104345252118624,S2
+2995,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0346270906826706,S3
+1118,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3879141300515899,S2
+3068,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0197247562472389,S1
+8955,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0433239808183276,S2
+945,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0189935161636113,S2
+5644,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0239676417052015,S2
+7192,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0053654638600462,S3
+2324,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0370006744316198,S3
+697,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5058369189387846,S3
+3439,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0596045266376036,S2
+1506,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0596880105079012,S1
+232,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0193797736315657,S3
+8876,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2140646824912188,S2
+9739,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1213727948875663,S2
+10395,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1383068102120949,S1
+1176,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0365716721684945,S1
+1627,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4773237812976754,S3
+938,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.122511531960419,S2
+2740,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0997405650958136,S2
+257,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0201578278880333,S3
+4058,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.4455783359205482,S2
+7736,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4289176238216304,S1
+8210,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0097018129178733,S2
+833,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.014189719411897,S2
+6230,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1473841627506772,S2
+7325,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0681137780562361,S2
+1307,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0168877006649376,S1
+1502,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.066192563887968,S1
+6211,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0300746025950978,S2
+843,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0120781309235698,S3
+4174,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0053133628952856,S2
+9757,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5796780743874972,S3
+286,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0372707302198522,S2
+11086,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0163507269594905,S1
+1921,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0291856851993861,S2
+4138,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.081773294204639,S3
+7718,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0177663500217204,S3
+1291,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4746237688956622,S2
+6862,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4448919105526371,unassigned
+4136,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1678704982064204,S1
+803,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0194203600552151,S3
+4298,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0473461275512385,S2
+10833,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0044716443911084,S2
+9606,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7046233969624275,S3
+8534,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0076973496172876,S3
+5153,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.224457251904194,S3
+961,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0346086986007952,S3
+6653,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1946460925970303,S2
+9094,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1669190539648757,S2
+810,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0014294255519192,S1
+5493,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0404016438663208,S2
+2147,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5026680238361778,S3
+3979,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7047598060743772,S3
+6049,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3285363783413718,S3
+8147,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0256494499781228,S2
+1857,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0359976893646424,S2
+5207,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3755713737597619,S2
+11114,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0861094877903475,S1
+5429,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0330970191510105,S2
+9400,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0904499879555594,S3
+1740,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0589820859408716,S2
+7488,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0267807682506534,S3
+195,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8447644994396807,S2
+635,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0891459458343066,S2
+7527,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3878875185702645,S1
+10319,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0343930071579216,S2
+2296,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.171000369788303,S1
+10637,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.011797409172046,S1
+2931,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4635962847025362,S3
+907,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0081429609178813,S2
+3698,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.618390599469065,S3
+9516,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.894614916416525,S3
+679,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1498659903016001,S2
+7384,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1078835365151703,S1
+5043,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0594464098520234,S1
+5267,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1738451812750636,S2
+339,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2065728177198528,S2
+2516,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0232734970640212,S1
+9010,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.970521650035449,S3
+378,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.07673218464421,S1
+4808,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.037541601918478,S1
+7628,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0192600065794052,S1
+7128,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0725977448293075,S1
+2811,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0321908477632355,S2
+3551,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0065372352069132,S3
+1663,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0878089694110184,S2
+5543,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0256092422046273,S2
+1577,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1891619287388177,S3
+10641,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1177580477238481,S1
+5336,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0893108454160665,S2
+1878,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0189699649546893,S1
+3099,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1596457704236277,S2
+6055,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1632040437181895,S3
+5841,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0260141185824851,S2
+3972,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0495126097280355,S2
+4394,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0922141530117396,S3
+5758,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8715369420385628,S2
+6658,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0222700511367788,S2
+4603,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0095975913490049,S3
+8427,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3800695445787315,S3
+10260,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0230567186550912,S2
+7143,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0127190400171426,S3
+8789,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0169029376089013,S1
+6197,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2353754435145911,S2
+4554,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0087876905521619,S1
+4937,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.006325319665457,S1
+8749,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0159982641282954,S1
+1650,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0606897704359284,S3
+10377,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0398499274339834,S2
+9206,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0166070920442448,S3
+10971,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8957797457596067,S2
+6398,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0054318108062825,S1
+9212,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0280526023074842,S2
+7937,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0119355620398678,S1
+839,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0686243448404472,S2
+4246,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3636721890613988,S1
+158,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.624588372770238,S3
+4832,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0242458467585706,S1
+5621,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0695855966815159,S1
+1945,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1975453286928795,S3
+5147,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0217464740970876,S3
+2535,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.9618395326786916,S3
+11039,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0143798599650229,S1
+9495,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0377541090706758,S3
+9635,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0156628174758583,S2
+2173,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0372854049832084,S1
+942,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.552493436163888,S2
+9386,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0091760121208673,S2
+5510,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0436184890365995,S2
+873,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1389434814235092,S2
+2253,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.033746243744212,S1
+5181,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0504965882796683,S1
+10390,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.030934096141187,S1
+7793,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0342571157925985,S2
+10590,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1242801287553051,S3
+5080,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0926495540703223,S3
+8369,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0871534993480245,S1
+5232,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.005997387852273,S3
+2407,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3604990285384707,S3
+3834,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0656687398410943,S1
+7912,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4344573691180751,S1
+7712,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.06793925334454,S3
+1065,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2421613427226206,S3
+7275,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0425304892952605,S2
+1343,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0957861788364205,S2
+1384,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0539785033834696,S1
+9967,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1391258987149034,S2
+6181,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1173644364585578,S3
+10507,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0919166754412915,S2
+2674,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1116522392539846,S3
+2698,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0364956522819552,S2
+3231,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0276559228119056,S1
+10476,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0041377508718923,S3
+5948,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0151061275245428,S2
+9140,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0119819601897878,S2
+5675,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.458372891278269,S2
+4743,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0519317474559336,S2
+8805,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1850258594122961,S2
+1542,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0076731369806009,S2
+6770,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1935316457649942,S1
+8773,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0533558558898224,S2
+10420,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0344759422023207,S2
+7514,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0363207298116081,S2
+793,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1128620113733537,S2
+10909,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6983176173022381,S3
+4791,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0278148908413449,S2
+8216,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0351604809749071,S2
+8140,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.028966212527433,S1
+10146,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0424606805968764,S2
+5289,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1382843841115863,S1
+2587,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0282412766332361,S2
+4405,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0025997600696626,S2
+8663,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0168580450109739,S2
+2589,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0570177242770145,S2
+10490,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2112017234230079,S1
+4094,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0735933290905957,S2
+2534,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0100353813526543,S2
+4188,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.241934660143681,S2
+6613,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2136909035474377,S2
+10827,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1841874661189055,S2
+8402,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0123243096596202,S3
+8783,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0215834083692981,S2
+10010,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4918474752999536,S2
+618,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0322222970795531,S3
+361,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0110157297574485,S1
+4310,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1144376161262342,S3
+2678,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2899587189841907,S1
+6376,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1292298374833185,S3
+10341,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0132828897705503,S3
+5654,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0085086747636634,S1
+4098,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0067873700508158,S2
+5824,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0177670346534925,S2
+7000,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0878590531080372,S3
+5229,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0158875496319623,S2
+2428,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0584947147390913,S1
+8254,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1332261720669791,S2
+2836,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0939906252295785,S2
+8418,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0343526443782967,S1
+1362,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1923143145188189,S1
+10033,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0653233464967067,S1
+9349,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1266190747075088,S3
+274,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0283905269156021,S1
+3388,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0562643130355522,S1
+922,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1790219954562802,S1
+2518,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0734619798896916,S1
+574,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0091811848317644,S1
+5967,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0289693293590536,S1
+1183,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0207334600804532,S1
+6856,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1546118677709918,S1
+4530,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6716575136489935,S3
+1553,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4858105407531553,S3
+4682,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0088842625374535,S3
+8204,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0749027285358951,S3
+5221,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.4066532160063289,S2
+1232,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0486503501422006,S3
+1927,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0084055691089979,S3
+5788,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0794880587162237,S3
+6652,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0123579561029677,S3
+6246,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0911271321838508,S3
+5975,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2173169757350397,S2
+6875,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3895167381599125,S2
+4042,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1427147792522775,S2
+2157,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0328716864631158,S1
+10133,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7067944304240047,S3
+2525,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1276300776354466,S1
+8233,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0740681075021608,S2
+9483,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0108043224515988,S3
+10403,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0160132528715038,S1
+5074,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.040551525278698,S2
+10524,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0767564251586731,S3
+4690,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0372782877574637,S2
+7196,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0147478893353974,S2
+4406,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0414888847906776,S2
+9672,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0112833778794388,S1
+4864,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.099513716108547,S2
+4706,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0435870197189391,S2
+4070,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.6707302890543329,S3
+25,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0720491865704275,S3
+3697,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0312742196309795,S2
+4220,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0172840813255905,S2
+5286,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0619696227936275,S3
+9559,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0340627843630386,S2
+3102,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0351529755083311,S1
+5868,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0308346298079848,S1
+8370,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0634578184988402,S3
+9988,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0218124648606814,S2
+2939,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0550226463292641,S3
+5529,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1894327593895589,S2
+9743,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2455716017610898,S2
+5763,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0732303683212864,S2
+3478,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0794203221590844,S2
+7494,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3902659621200315,S2
+1763,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.905711486402411,S3
+7250,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0390414797950234,S2
+2005,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0170993629228468,S1
+10770,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0087731942595296,S3
+6885,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0723749633100972,S2
+2072,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.3656888866152051,S2
+9463,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0532882140095528,S2
+6318,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.041742570993612,S3
+4093,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.070320965607358,S2
+3340,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2120357210710729,S2
+3594,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1296712702383574,S2
+3584,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9103709413656202,S2
+3643,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0510772131353574,S3
+851,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0207134482112986,S2
+7706,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.5927608471521172,S1
+3967,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.022915120117866,S3
+10128,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0090513225688585,S2
+9451,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0724583209358487,S2
+9264,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0165679974559185,S3
+3865,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0856581273888694,S1
+2853,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0790423725668224,S1
+1490,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0582003436922618,S2
+10380,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0534212698358548,S2
+3887,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3237720567524617,S1
+4278,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5283082057162063,S3
+8643,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0570621322751873,S3
+1998,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0550184407182065,S3
+11110,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2894298041641464,unassigned
+2408,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0775578012312532,S2
+202,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1360922479346685,S3
+7998,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0574156080589033,S2
+830,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8274831506360145,S3
+3536,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0195799863156407,S1
+6050,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1284345490127109,S2
+125,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1190024432272267,S2
+3463,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0041374286910364,S2
+2804,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.301211651797843,S2
+3745,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1849376951226711,S1
+9771,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4851072026766703,S2
+451,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0623467521283878,S2
+10530,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1955291273646153,S3
+1079,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1197287297278627,S2
+8920,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4095667178430354,S2
+6678,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0146825543936857,S2
+3852,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0414524467126508,S2
+528,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.078973536575379,S3
+73,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0526542698450641,S2
+5589,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1107958115044442,S2
+6365,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0316364954467969,S1
+5636,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3291160298948364,S2
+591,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1248680630979436,S2
+2217,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0221528662963346,S1
+2544,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0262009000616112,S3
+7725,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0197198552333532,S3
+8091,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1131986132757781,S3
+7791,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0170809430824104,S2
+955,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4647687253535164,S2
+4037,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.131786368100077,S1
+6642,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1561783224414693,S1
+2793,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.063197201267359,S2
+9530,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0919871606478197,S1
+4828,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0158443913388345,S3
+10699,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0154303046612995,S2
+1497,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.10605017432145,S2
+7476,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2056697788954831,S2
+4390,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0016636462007069,S3
+10478,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3011115970184241,S2
+1081,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0721368290080629,S2
+5350,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2600584596818292,S3
+8135,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0300454616381031,S1
+4967,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.070959869935799,S2
+2130,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0165421974468602,S3
+9298,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2226698064953871,S3
+6257,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.095230880819808,S2
+3790,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0100772152155083,S2
+9952,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0646709539201888,S3
+3503,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.139757689982084,S3
+5223,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.005951879881371,S1
+4608,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0123172474288304,S3
+1626,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2226862758974633,S1
+4764,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1004236739134956,S1
+2471,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0087919377422352,S1
+5892,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0649414399470335,S2
+2612,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1041688344440781,S3
+5185,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0784449287772619,S3
+10069,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1831428577935077,S1
+1131,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0273163449629231,S2
+1041,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3136062390084123,S2
+3409,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.6298942731056048,S2
+7022,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0296367626871554,S3
+7943,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021427263220172,S3
+5272,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0707027722966905,S2
+5453,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2766089970146339,S3
+2565,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1962948146785462,S3
+800,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0118580358721031,S2
+11092,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0083811841442576,S2
+5062,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0523764675153056,S2
+8969,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0179796227721762,S3
+4656,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.9039663936834657,S2
+4480,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0109962587602555,S2
+1773,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1048742920275068,S1
+9242,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5220254840390629,S3
+1764,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.160965068997991,S2
+6215,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0104279651824179,S2
+10099,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0138059235018894,S1
+5423,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0253037314744315,S1
+940,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0232791635519729,S3
+3298,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0970105308951886,S2
+8286,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0746203784859,S2
+9668,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0933576787011014,S1
+6097,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.346007751659717,S2
+7019,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0302950346345629,S1
+7408,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0234047413046727,S2
+8041,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2162575093012783,S2
+252,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3813193714962993,S1
+9986,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0270694757679395,S2
+3276,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0471126839128189,S1
+3570,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0695690097301785,S2
+3783,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0154568950317923,S2
+10207,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0474850387558549,S2
+3427,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1161440359277426,S2
+5209,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0683110158916603,S2
+10711,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.017917488348612,S3
+10785,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0044942294949912,S2
+2814,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0505488245264302,S1
+6866,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0071471390478062,S1
+1665,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8518297063167664,S2
+6575,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1435568721867648,S2
+3091,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0102139375701691,S3
+10141,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1236122038731482,S1
+5177,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0111221197012937,S2
+7005,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0241997953741417,S3
+6409,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3949689888664026,S3
+7485,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0428112847908907,S2
+8079,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0129143684607818,S1
+8395,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0854089596285882,S3
+10352,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2526758515988204,S2
+4931,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7669416729174754,S3
+13,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1171190733837927,S2
+1834,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0730587348083784,S2
+2285,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0321282012225818,S2
+2295,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0041226451750642,S3
+1378,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0449373486825368,S2
+2781,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3959869480843864,S3
+1165,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3034777558857964,S2
+1404,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1789398091230823,S1
+6457,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0056219751812876,S3
+2639,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0446869396113362,S1
+6437,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.148188323489892,S1
+6912,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0030412975882971,S2
+7327,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0145434622032891,S1
+8143,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7253710615564665,S2
+1964,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1070832486918994,S3
+3690,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3832300426485905,S3
+3389,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0341739895831096,S3
+4712,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0510283656950762,S1
+1170,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1051151859685479,S1
+6347,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0305873778911142,S1
+4065,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1120136643303467,S2
+8230,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0206053296152975,S1
+1215,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2030205805339776,S3
+5939,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0111949766927414,S2
+2156,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.102934516999303,S2
+7788,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0159772605915746,S2
+10323,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0119326348284871,S2
+7947,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0051514347542634,S2
+1891,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6064072367304464,S3
+2570,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.2365604197286016,S2
+9256,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0468500344045613,S2
+7397,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.050596675960102,S2
+6349,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2638313483460415,S3
+10790,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1403875983566658,S2
+10398,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3498695810587258,S1
+2431,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0544018605442035,S1
+550,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0205617994737725,S3
+1890,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.064016614472261,S2
+10742,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.32407227114086,S3
+10356,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2748658879848181,S2
+4676,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.018573045915959,S3
+8852,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1057272789666718,S2
+5294,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0686552206586368,S1
+1958,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0123699777342491,S2
+7349,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0298234675603307,S1
+8799,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0860335968238998,S2
+1351,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1356631909185213,S2
+1045,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0711424131444294,S2
+7732,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0086389757423634,S1
+8070,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0087343646526443,S3
+477,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9229302383236394,S3
+7832,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.822433818902927,S3
+2202,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0110099541653822,S2
+7396,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4321475306939025,S3
+4055,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0110837024002039,S1
+10340,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2716422953265145,S1
+10091,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0873669960545796,S3
+7629,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0055394208618194,S1
+10640,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.021244175458307,S2
+3498,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.4180071509341179,S2
+6742,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.072354419982084,S1
+1172,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9176303163800684,S3
+569,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.926838482058586,S3
+4686,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2398399622738327,S3
+1381,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2342934832555495,S2
+2634,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0605017496873213,S1
+10905,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0552710305759395,S2
+1744,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0173339597331544,S1
+3828,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0135612777445709,S3
+8605,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0178936002505585,S2
+4351,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3806947951324536,S2
+10129,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0597453592816991,S3
+2499,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0433610894898881,S1
+10092,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1154886015418132,S3
+5796,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0376860620758201,S3
+10556,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0412142789723522,S2
+1064,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0606530621185718,S2
+48,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0202546853995746,S2
+7610,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1104684994874318,S2
+263,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1282969159042696,S1
+10814,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0978799803746869,S3
+9710,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2287068422590007,S2
+9292,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2635833321150988,S3
+10250,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0283499271613284,S1
+5847,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0529221252782109,S1
+737,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9496470082062676,S3
+3571,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2865361554972435,S2
+3878,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.065574040520466,S1
+5092,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3812932181051551,S2
+5394,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0136115785527041,S1
+3798,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0130713798939927,S1
+3524,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2596554720845616,S2
+5247,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0107274565637485,S2
+5883,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1003254633498047,S1
+2118,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0143799611773153,S1
+8812,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2223766716528167,S1
+6616,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0036706511272247,S3
+2797,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.008214296610857,S3
+4328,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0409192214568011,S1
+9167,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0207769675233827,S2
+10560,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0648713922786374,S2
+5534,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1228228657854776,S2
+5093,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.6142589498183998,S2
+8584,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0893939357857774,S3
+2694,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0050416867266751,S2
+164,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2066935714188376,S2
+10477,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1139225151382044,S2
+2681,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0051009078406527,S1
+5150,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0508326921363051,S1
+5283,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0502761491752841,S2
+9645,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0821947517309684,S2
+10678,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0089086997523133,S2
+7261,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0526526457204952,S2
+9648,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1954133846604505,S2
+2870,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0532088351565091,S2
+8008,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0196427531664071,S2
+1513,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0489787043630141,S1
+7960,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0607208553055099,S3
+9905,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1833705673429616,S2
+10691,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0290901185119069,S1
+7002,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0219438322832071,S3
+2952,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0688426769392357,S2
+8439,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0078232197158263,S2
+2831,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0032665346030064,S3
+6977,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1167755702742461,S3
+6289,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0359952953927004,S2
+8397,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0974758249880745,S2
+6237,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4212043459950577,S2
+1619,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0320576877224444,S3
+1990,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8046872512078924,S3
+269,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3417144610648507,S2
+8093,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0393142487727627,S3
+10513,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3813970818098948,S3
+10177,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0873769039379012,S3
+2549,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0887972624276832,S2
+5782,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0207571048004119,S2
+10057,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1678511852058325,S3
+10307,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0037369620271111,S2
+8566,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0149277449639341,S2
+2415,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0539455077777294,S3
+5684,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0513699739435411,S2
+9166,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0065569649801091,S3
+1440,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.218612215393364,S1
+78,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0425929024935963,S2
+5441,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0855316922007935,S2
+5302,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1119516147615812,S3
+4687,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0946778168806621,S3
+1087,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1335153002412321,S1
+6859,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1219368028988893,S1
+9860,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.031986842777386,S2
+7129,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0353571292931448,S2
+5866,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0238179146405906,S2
+10521,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0110918010332386,S1
+7393,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0316544694789633,S2
+7849,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0225071905045635,S3
+332,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0593701274025562,S2
+9847,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1974245532093159,S2
+531,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5592571629803167,S2
+9576,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2002948929424577,S2
+6906,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9788351820073684,S3
+7419,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0629350044085586,S1
+3170,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.065741994561411,S3
+8527,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0210585667751741,S2
+7872,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.991058254088561,S3
+9931,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1588868489709578,unassigned
+10595,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0305048556331787,S1
+4609,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0234685315943792,S2
+5010,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0537819287527602,S1
+4427,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8641590344891629,S3
+11148,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0526406406304906,S1
+1168,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2597441352696354,S3
+9595,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2913204356263571,S3
+10163,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2213745902664391,S3
+2886,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3405802778474374,S2
+6710,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1672332816366959,S2
+5316,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0373424792013412,S2
+9029,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0616142837210222,S3
+521,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2164539141410703,S1
+1459,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.064312683515875,S3
+10241,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.068542011684977,S1
+3254,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0375637969762698,S3
+3678,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.54408163654635,S2
+4227,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0183617880119477,S2
+9467,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0307322383472182,S1
+8486,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3204201937598154,S2
+2186,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8206277242527846,S3
+3286,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1409528859887233,S1
+8602,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0365026633623509,S3
+3722,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0204569100864593,S2
+6715,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.183529647810654,S2
+4796,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0123388063342894,S1
+9612,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0543457708676634,S1
+3766,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.6685521973844031,S1
+1399,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0946370284081196,S3
+1570,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0460658180533391,S3
+3426,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0727306379516411,S2
+3074,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.239771063450962,S3
+8341,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2459917319992683,S2
+5180,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0457887144355097,S2
+6461,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0774246793602572,S3
+7679,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0557584912015124,S3
+10702,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2394457124281259,S2
+7505,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0238341477133264,S2
+5113,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8435694585634052,S3
+10858,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0201637188300389,S3
+2961,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4356867398120363,S2
+3010,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8279794112354267,S3
+5790,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0747074217355853,S1
+6892,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.4105235375140358,S2
+1743,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0266235492186522,S3
+3578,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0300674775085316,S2
+5558,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5648231937631033,S3
+4619,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7090200339004713,S1
+10779,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0358409711877132,S1
+5896,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0078892791454614,S3
+2337,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1069146805240974,S2
+10951,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0079270851574157,S2
+17,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0550651026819698,S3
+10680,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0187067186366836,S2
+3265,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0495809232827273,S1
+5623,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2436150773267139,S1
+5832,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0069879623276268,S3
+5544,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2927142348829776,S3
+5831,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6774430815692885,S2
+7101,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2778806254149941,S2
+10176,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.8113941086827294,S2
+4385,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2793673226990703,S2
+10686,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0774220344327083,S2
+2546,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0089688504901274,S1
+3283,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0076994749515644,S1
+3138,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9903867478656696,S3
+4994,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1580320880494176,S3
+7966,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1656207072062449,S3
+3112,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0306168609823123,S1
+2181,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0719116814962776,S3
+1867,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4091598927898049,S2
+1518,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0504885722658894,S2
+5734,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0201231067780529,S2
+2878,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0266094971435935,S3
+1458,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0282730118872889,S1
+7007,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0428975931342564,S1
+6200,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0215883280215148,S3
+1403,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0554617596746762,S1
+4827,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1335335039816211,S3
+6250,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2672947535373896,S2
+9291,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0066246503317899,S1
+2478,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.018198628358308,S1
+1139,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8747662270291485,S3
+5138,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0334253838042059,S2
+5393,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.291057858059372,S2
+10413,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0055095863420226,S3
+5015,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.173867121007996,S2
+10868,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2351581756941644,S3
+10676,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1388625512204034,S3
+2495,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0024797807140953,S3
+7842,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1002497630613091,S1
+6663,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2866774354766011,S2
+2162,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0035134767550114,S3
+3434,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0435746784034102,S3
+7919,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4476877795198278,S2
+5626,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0784331642709821,S2
+6428,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0513418739671945,S3
+8514,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0175699620439817,S1
+10448,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.6186130031565122,S2
+2109,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5455088605440663,S3
+8925,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.01362246624285,S3
+3009,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9770947032652264,S2
+6355,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0031343047673633,S2
+3517,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.137061553356173,S1
+1158,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0228464929834807,S2
+6203,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0699010357486261,S3
+7165,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0071751584769829,S2
+3595,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0020306607019626,S3
+8537,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5617969519221943,S3
+4331,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0858488917773554,S3
+6281,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.383720741876403,S2
+4338,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1835971075761684,S2
+9507,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.026507952874932,S2
+10311,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2922222900896975,S1
+5117,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1516723697243289,S1
+4867,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.115619433813616,S2
+9289,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0211906415001891,S2
+10913,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.7239014091331735,S1
+3032,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.09813252858785,S1
+3334,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5396540946138254,S3
+4470,Mid,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0164390232318416,S3
+1406,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1671786543814509,S2
+10821,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0437846397826809,S2
+4552,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0432887789489425,S3
+898,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0345113859615514,S1
+9797,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0035764075806001,S3
+10949,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4043890860429659,S3
+8212,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0284535407618522,S2
+6248,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4011950459261189,S3
+10164,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2747603614812822,S3
+4547,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0282968350464737,S1
+6815,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.6027615838100499,S3
+4122,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.2919728042507383,S3
+10841,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0436403495452806,S3
+5370,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.710003047342816,S2
+176,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0213866766057535,S1
+4860,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.153093308985469,S1
+10757,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1668860660554927,S1
+4023,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2123177804916493,S1
+6679,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0216466488909292,S1
+7181,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0106073187668195,S2
+3599,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0500519684543966,S3
+405,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5809316699699121,S2
+6870,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0471035736792476,S3
+832,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0101330977749702,S2
+2002,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3935176198440674,S3
+3657,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2228763587146643,S2
+500,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7184391113053821,S3
+1951,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0348799459503494,S1
+3262,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1550451729835173,S3
+7042,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0692740050587336,S1
+10598,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0287566031434259,S2
+255,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0154698045875965,S2
+2375,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0140874786186805,S1
+9829,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0184366778413296,S1
+6214,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0691705908501797,S1
+4954,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0124176628320081,S1
+7861,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0146611327114311,S2
+4837,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0446871411302291,S2
+9423,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0189429808108535,S1
+153,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0761219102498107,S1
+9323,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.4886849043414092,S2
+10001,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2019758784220099,S1
+3945,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8307589565676808,S2
+3799,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0135299207702854,S2
+8625,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0376074867711817,S2
+3491,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.085289637623987,S1
+983,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3985539984441376,S1
+9119,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0052156737464693,S3
+4786,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0405625145402023,S2
+5872,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0415789656150877,S3
+6568,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0553158497373982,S1
+5628,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3055540010650826,S2
+5631,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1069822591307973,S3
+4974,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2281394955116663,S3
+8416,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0234494468619668,S1
+5454,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0269612924142826,S2
+4095,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2564927480309035,S1
+5474,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1130169734526884,S1
+4268,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0040900628027328,S2
+10701,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1914103908642232,S3
+3507,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.4650489699114361,S3
+2079,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0247462650896756,S3
+626,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0210835081815068,S2
+4426,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2819601287212155,S2
+2591,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0207927956642484,S3
+10509,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0332194567646098,S2
+6382,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0046508794641138,S2
+6673,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2025298248360616,S1
+7441,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3054664807233633,S3
+10061,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0307419344610503,S2
+322,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0235332187111342,S2
+123,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1156665352835405,S3
+6103,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0303489328659809,S1
+7899,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1793363538217077,S3
+10500,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0130318997253529,S1
+1655,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0261027898618964,S1
+2406,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0120930821845841,S2
+2712,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0075813715103636,S1
+2254,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0983057620645931,S3
+10281,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0750922332247771,S3
+6958,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0490457063728958,S2
+954,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0114365667414852,S1
+4643,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1510507470975315,S1
+6497,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0682770798805006,S2
+2802,High,Mid,Mid,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.1022201285384872,S3
+6343,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0152476442765998,S3
+6507,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0534854090947074,S1
+7901,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0077558933510193,S1
+4865,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0600737561617433,S2
+2686,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0077846531220103,S1
+3107,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0028688917730134,S3
+11031,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0440493508462261,S2
+7428,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0256495850028478,S3
+975,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0876345283298197,S2
+1103,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8036304952284421,S2
+3422,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3496779348257906,S2
+1055,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0064258400254315,S2
+1241,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1241916081398895,S1
+2909,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2093597736748079,S2
+5802,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0148257997676908,S1
+340,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.5083793731925731,S2
+5991,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0444669916672632,S2
+3104,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6410236334968735,S3
+9729,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1476804003518546,S2
+1008,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.3727650267328141,S2
+11091,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0052623077606041,S1
+3969,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0161176166130503,S1
+1916,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.042646074588461,S2
+9907,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0059192167680016,S3
+87,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0458375298306505,S1
+8659,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0087991798464749,S3
+6262,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.1916620975246606,S3
+6147,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2617997249948853,S1
+8832,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1500677192752263,S1
+10067,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0179748242519388,S2
+7532,Mid,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0528409799470989,S2
+4915,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0668686478735887,S1
+2115,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0109630273592838,S2
+6292,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1186513565836971,S3
+1631,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3592875370871683,S2
+10104,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0116812953877299,S2
+3919,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.576875673066831,S3
+11181,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1070672887695791,unassigned
+642,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0528291471878116,S1
+10127,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0094513918593215,S2
+271,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3438452142053795,S2
+2948,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0210458846489641,S3
+2715,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.3599968430580923,S2
+10432,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.055736800664275,S1
+9216,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0081852405708528,S2
+7124,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0970683191098295,S2
+9727,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0157951719236228,S1
+5136,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.3206654441415116,S2
+9790,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5485414008432177,S2
+1818,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0567494984670552,S2
+1100,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0052668223732362,S2
+7873,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0344382368200788,S2
+10609,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0173684798953072,S2
+6950,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0167551540887443,S2
+7233,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.6410841114444807,S3
+9481,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0288583885107952,S1
+8933,Low,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0148404933225969,S1
+8726,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0375638306081402,S2
+1515,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0051650509577685,S1
+5186,Mid,High,Low,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.031563519484727,S2
+10157,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0145494132722771,S3
+5667,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2886442694198204,S3
+902,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247513510109373,S2
+977,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0143928915287728,S2
+7313,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5143823139069875,S3
+7600,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.018127687804325,S1
+9706,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2981850982716494,S2
+3520,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9975556222388808,S3
+10394,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8767065440690948,S3
+4548,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0184642183670967,S1
+9362,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0463024022968699,S2
+3968,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.9326778237149226,S2
+4084,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0036686541130683,S1
+6721,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0509889068712022,S2
+2829,Mid,High,Mid,"P3 High-value, low-propensity",P4 Low priority for campaigns,0.0784979670895922,S2
+1772,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.7955704112058922,S3
+1544,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2087923163367254,S3
+4377,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.4749811231199228,S2
+1321,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0416516074657534,S2
+8858,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1415838525796447,S2
+11187,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0345368164664114,S1
+8207,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0057085353918954,S2
+9723,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0576084640274136,S3
+2666,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0097594410397208,S3
+5721,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.3973526050339405,S3
+10652,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0678536366709065,S3
+1646,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0043069548110019,S1
+4418,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.1023188801971325,S3
+2656,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0922289765953432,S2
+7990,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1081300867201373,S1
+8722,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.8611428364693461,S3
+7118,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.5913190268429334,S2
+2980,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1720497594922012,S2
+1839,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0430979253630532,S2
+10722,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1836511011207816,S2
+2632,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.2969616060257196,S2
+9014,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0075959450413048,S2
+7620,Low,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0363250892627635,S1
+10968,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.22328590590466,S3
+2736,High,Mid,Low,P4 Low priority for campaigns,"P3 High-value, low-propensity",0.0111951551416446,S3
+5959,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1516901719084123,S2
+1092,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2457116649266745,S1
+4333,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0255702472736279,S2
+3850,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0050650403709489,S1
+6168,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0541551091573721,S2
+607,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1891884640276693,S2
+10469,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0301016286967961,S3
+6983,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0379369341879285,S2
+3661,High,High,High,P1 Engaged high-value,P1 Engaged high-value,0.2763486664714221,S3
+9303,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0209249816948456,S2
+692,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0390876728701688,S1
+9246,Mid,Mid,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.170836380896481,S2
+6261,Mid,Mid,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0029267158459168,S3
+10659,Low,Low,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.1182537740868753,S1
+1448,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0023389555485567,S1
+4286,Mid,High,High,P1 Engaged high-value,"P2 Responsive, lower-spend",0.2720887824337892,S2
+4478,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.088559152759094,S2
+4201,Mid,Mid,Mid,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0863107305990514,S2
+10084,Low,Low,Low,P4 Low priority for campaigns,P4 Low priority for campaigns,0.0247884850054449,S1
+7004,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.723254142786149,S2
+9817,High,Mid,High,"P2 Responsive, lower-spend",P1 Engaged high-value,0.1953085632646653,S2
+8080,Low,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1670249831744235,S1
+10870,High,High,Mid,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0543214360974634,S2
+7270,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0298430951709568,S2
+8235,High,High,Low,"P3 High-value, low-propensity","P3 High-value, low-propensity",0.0061371593497722,S3
+9405,Mid,Low,High,"P2 Responsive, lower-spend","P2 Responsive, lower-spend",0.1404960214112195,S2

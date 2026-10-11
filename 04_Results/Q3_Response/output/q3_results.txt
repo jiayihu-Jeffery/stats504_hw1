@@ -1,0 +1,122 @@
+Q3 — primary sample n = 2026; Response rate = 0.1530 (310 acceptors)
+
+[1] Response rate by group (Wilson 95% CI)
+     variable        level    n  acceptors  rate    lo    hi
+      IncomeQ  Q1 (lowest)  507         54 0.107 0.083 0.136
+      IncomeQ           Q2  506         62 0.123 0.097 0.154
+      IncomeQ           Q3  506         57 0.113 0.088 0.143
+      IncomeQ Q4 (highest)  507        137 0.270 0.233 0.310
+     Children            0  569        157 0.276 0.241 0.314
+     Children            1 1029        107 0.104 0.087 0.124
+     Children            2  383         44 0.115 0.087 0.151
+     Children            3   45          2 0.044 0.012 0.148
+      Kidhome            0 1168        206 0.176 0.156 0.199
+      Kidhome            1  817        102 0.125 0.104 0.149
+      Kidhome            2   41          2 0.049 0.013 0.161
+     Teenhome            0 1044        220 0.211 0.187 0.237
+     Teenhome            1  933         85 0.091 0.074 0.111
+     Teenhome            2   49          5 0.102 0.044 0.218
+          Edu        Basic   49          2 0.041 0.011 0.137
+          Edu   Graduation 1017        141 0.139 0.119 0.161
+          Edu       Master  518         75 0.145 0.117 0.178
+          Edu          PhD  442         92 0.208 0.173 0.248
+      Marital    Partnered 1300        147 0.113 0.097 0.131
+      Marital       Single  726        163 0.225 0.196 0.256
+      PrevAcc            0 1601        137 0.086 0.073 0.100
+      PrevAcc            1  301         94 0.312 0.263 0.367
+      PrevAcc            2   74         38 0.514 0.402 0.624
+      PrevAcc           3+   50         41 0.820 0.692 0.902
+    SpendTier          Low  676         54 0.080 0.062 0.103
+    SpendTier          Mid  677         85 0.126 0.103 0.153
+    SpendTier         High  673        171 0.254 0.223 0.288
+      Segment           S1  511         54 0.106 0.082 0.135
+      Segment           S2  870        109 0.125 0.105 0.149
+      Segment           S3  639        147 0.230 0.199 0.264
+TenureTertile       newest  678         62 0.091 0.072 0.116
+TenureTertile       middle  675         83 0.123 0.100 0.150
+TenureTertile      longest  673        165 0.245 0.214 0.279
+   RecencyBin         0-24  515        139 0.270 0.233 0.310
+   RecencyBin        25-49  508         77 0.152 0.123 0.185
+   RecencyBin        50-74  509         58 0.114 0.089 0.144
+   RecencyBin        75-99  494         36 0.073 0.053 0.099
+
+[2] Explanatory logit, model A (HC1 SEs; pseudo-R2 = 0.281; n = 2026). Units: logInc/logSpend per 1 log-unit (~2.7x); Age per 10y; Tenure per month; Recency per 10 days; AME in percentage points
+                                              OR  OR_lo  OR_hi      p  AME_pp  AME_lo  AME_hi
+C(Edu, Treatment('Graduation'))[T.Basic]   0.232  0.048  1.111  0.068 -13.418 -27.773   0.937
+C(Edu, Treatment('Graduation'))[T.Master]  1.099  0.770  1.569  0.603   0.867  -2.400   4.133
+C(Edu, Treatment('Graduation'))[T.PhD]     2.046  1.436  2.915  0.000   6.578   3.383   9.773
+C(Marital)[T.Single]                       3.025  2.256  4.057  0.000  10.169   7.570  12.769
+logInc                                     0.682  0.446  1.041  0.076  -3.521  -7.425   0.383
+Age10                                      1.075  0.941  1.228  0.290   0.662  -0.566   1.889
+Kidhome                                    1.756  1.242  2.484  0.001   5.174   1.930   8.417
+Teenhome                                   0.422  0.311  0.572  0.000  -7.929 -10.731  -5.127
+TenureMonths                               1.113  1.085  1.142  0.000   0.984   0.762   1.205
+logSpend                                   1.341  1.124  1.599  0.001   2.694   1.050   4.339
+PrevAccepted                               4.047  3.247  5.044  0.000  12.844  11.076  14.611
+
+[2] Explanatory logit, model B (HC1 SEs; pseudo-R2 = 0.356; n = 2026). Units: logInc/logSpend per 1 log-unit (~2.7x); Age per 10y; Tenure per month; Recency per 10 days; AME in percentage points
+                                              OR  OR_lo  OR_hi      p  AME_pp  AME_lo  AME_hi
+C(Edu, Treatment('Graduation'))[T.Basic]   0.201  0.042  0.960  0.044 -13.256 -26.167  -0.346
+C(Edu, Treatment('Graduation'))[T.Master]  0.977  0.672  1.420  0.901  -0.197  -3.291   2.898
+C(Edu, Treatment('Graduation'))[T.PhD]     2.097  1.429  3.079  0.000   6.125   2.969   9.281
+C(Marital)[T.Single]                       3.499  2.554  4.796  0.000  10.357   7.895  12.820
+logInc                                     0.664  0.421  1.048  0.079  -3.385  -7.163   0.392
+Age10                                      1.098  0.956  1.260  0.187   0.771  -0.374   1.915
+Kidhome                                    2.047  1.399  2.995  0.000   5.923   2.762   9.083
+Teenhome                                   0.385  0.276  0.538  0.000  -7.884 -10.605  -5.164
+TenureMonths                               1.132  1.103  1.162  0.000   1.025   0.815   1.235
+logSpend                                   1.413  1.166  1.712  0.000   2.858   1.259   4.457
+PrevAccepted                               4.690  3.691  5.959  0.000  12.779  11.125  14.433
+Recency10                                  0.730  0.688  0.776  0.000  -2.597  -3.074  -2.121
+corr(logInc, logSpend) = 0.750
+
+[3] Predictive performance, 5x5 repeated stratified CV (base rate 0.153). Top-10% metrics use repeat-averaged out-of-fold scores; lift CI = 1000 bootstrap resamples.
+                         features      model  n_features  AUC_mean  AUC_sd  PRAUC_mean  PRAUC_sd  top10_rate  top10_lift  lift_lo  lift_hi
+         T0 (demographics/tenure)   logit_L2           9     0.755   0.021       0.406     0.035       0.453       2.962    2.594    3.446
+         T0 (demographics/tenure) grad_boost           9     0.737   0.025       0.416     0.047       0.483       3.155    2.763    3.657
+Scenario A (T0+T1 w/o Recency+T2)   logit_L2          26     0.858   0.019       0.595     0.038       0.670       4.378    3.925    4.817
+Scenario A (T0+T1 w/o Recency+T2) grad_boost          26     0.852   0.018       0.560     0.034       0.635       4.153    3.743    4.587
+  Scenario B (all, incl. Recency)   logit_L2          27     0.894   0.018       0.642     0.035       0.704       4.604    4.180    5.022
+  Scenario B (all, incl. Recency) grad_boost          27     0.897   0.016       0.648     0.040       0.675       4.411    4.016    4.861
+Model carried to Q4: Scenario A, logit_L2 (rule: logistic unless boosting AUC higher by > 0.01)
+
+[4] Permutation importance (drop in AUC when feature shuffled), Scenario A
+                     logit_L2  grad_boost
+TenureMonths           0.0545      0.0321
+AcceptedCmp3           0.0336      0.0187
+Teenhome               0.0305      0.0199
+Single                 0.0291      0.0236
+NumStorePurchases      0.0277      0.0351
+MntMeatProducts        0.0213      0.0407
+AcceptedCmp5           0.0210      0.0158
+AcceptedCmp1           0.0155      0.0168
+Edu_PhD                0.0145      0.0058
+NumDealsPurchases      0.0046      0.0013
+AcceptedCmp2           0.0046      0.0030
+AcceptedCmp4           0.0046      0.0016
+NumWebPurchases        0.0045      0.0011
+NumWebVisitsMonth      0.0041      0.0136
+MntGoldProds           0.0027      0.0077
+MntFruits              0.0021      0.0012
+Edu_Basic              0.0018     -0.0000
+MntWines               0.0014      0.0077
+Kidhome                0.0010      0.0011
+Age                    0.0010      0.0005
+Income                 0.0006      0.0038
+Complain               0.0000      0.0000
+Edu_Master             0.0000     -0.0002
+NumCatalogPurchases   -0.0006      0.0080
+MntFishProducts       -0.0008      0.0024
+MntSweetProducts      -0.0016      0.0048
+
+[S] Sensitivity — Scenario A predictive performance and explanatory ORs (model A)
+                sample    n                             model   AUC  PRAUC  top10_lift  OR_PrevAccepted  OR_Kidhome  OR_Teenhome  OR_TenureMonths  OR_logSpend  OR_C(Marital)[T.Single]  OR_C(Edu, Treatment('Graduation'))[T.PhD]
+       primary (dedup) 2026                          logit_L2 0.858  0.595       4.378              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+       primary (dedup) 2026                        grad_boost 0.852  0.560       4.153              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+       primary (dedup) 2026 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.047       1.756        0.422            1.113        1.341                    3.025                                      2.046
+      not deduplicated 2208                          logit_L2 0.863  0.605       4.588              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+      not deduplicated 2208                        grad_boost 0.864  0.597       4.347              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+      not deduplicated 2208 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.142       1.838        0.419            1.119        1.380                    3.103                                      2.148
+dedup, flagged dropped 2019                          logit_L2 0.865  0.609       4.449              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+dedup, flagged dropped 2019                        grad_boost 0.856  0.569       4.127              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
+dedup, flagged dropped 2019 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.032       1.749        0.420            1.114        1.331                    3.011                                      2.056

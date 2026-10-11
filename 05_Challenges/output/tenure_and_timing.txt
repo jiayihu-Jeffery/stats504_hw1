@@ -1,0 +1,35 @@
+== (1) Tenure vs the 2-year spending window ==
+Enrolment dates: 2012-07-30 to 2014-06-29; max tenure relative to latest enrolment = 23.0 months (< 24) -> no customer was observed for the full 2-year window.
+Spend by 6-month joining band:
+            size  median   mean
+TenureBand                     
+0-6m         522   178.0  497.0
+6-12m        536   306.0  538.0
+12-18m       530   507.0  659.0
+18-24m       438   588.0  761.0
+Spearman(tenure, spend) = 0.192 (p = 2.5e-18)
+Adjusted association (Q1 Gamma GLM): +4.3% spend per month of tenure
+Effect of tenure-adjusting value tiers on Q4 profiles (rows = raw spend, cols = tenure-adjusted):
+                               P1 Engaged high-value  P2 Responsive, lower-spend  P3 High-value, low-propensity  P4 Low priority for campaigns   All
+Profile_unadj                                                                                                                                       
+P1 Engaged high-value                            314                          23                              0                              0   337
+P2 Responsive, lower-spend                         8                         330                              0                              0   338
+P3 High-value, low-propensity                      0                           0                            297                             39   336
+P4 Low priority for campaigns                      0                           0                             57                            958  1015
+All                                              322                         353                            354                            997  2026
+
+== (2) Undocumented timing of behaviour fields (recency) ==
+  variable level   n  acceptors  rate    lo    hi
+RecencyBin  0-24 515        139 0.270 0.233 0.310
+RecencyBin 25-49 508         77 0.152 0.123 0.185
+RecencyBin 50-74 509         58 0.114 0.089 0.144
+RecencyBin 75-99 494         36 0.073 0.053 0.099
+Scenario A (no recency) vs Scenario B (with recency):
+                         features      model  AUC_mean  top10_rate
+         T0 (demographics/tenure)   logit_L2     0.755       0.453
+         T0 (demographics/tenure) grad_boost     0.737       0.483
+Scenario A (T0+T1 w/o Recency+T2)   logit_L2     0.858       0.670
+Scenario A (T0+T1 w/o Recency+T2) grad_boost     0.852       0.635
+  Scenario B (all, incl. Recency)   logit_L2     0.894       0.704
+  Scenario B (all, incl. Recency) grad_boost     0.897       0.675
+Recency is kept out of all recommendations until the client confirms it was recorded before the campaign.

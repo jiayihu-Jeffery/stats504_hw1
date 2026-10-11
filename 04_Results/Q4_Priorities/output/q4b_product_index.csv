@@ -1,0 +1,9 @@
+,sh_Wine,sh_Meat,sh_Fish,sh_Fruit,sh_Sweets,sh_Gold,MntWines,MntFruits,MntMeatProducts,MntFishProducts,MntSweetProducts,MntGoldProds
+Profile: P1 Engaged high-value,111.9,121.4,71.6,79.9,75.5,45.1,,,,,,
+"Profile: P2 Responsive, lower-spend",90.8,94.8,97.8,105.1,100.4,145.0,,,,,,
+"Profile: P3 High-value, low-propensity",105.9,110.0,104.4,96.6,101.0,54.9,,,,,,
+Profile: P4 Low priority for campaigns,97.3,91.4,108.4,105.9,107.4,117.8,,,,,,
+Profile: P1 Engaged high-value (mean spend),,,,,,,793.7,61.6,487.7,79.6,59.8,79.9
+"Profile: P2 Responsive, lower-spend (mean spend)",,,,,,,155.8,13.5,68.6,18.8,12.6,42.0
+"Profile: P3 High-value, low-propensity (mean spend)",,,,,,,550.0,52.6,319.1,83.6,58.2,71.9
+Profile: P4 Low priority for campaigns (mean spend),,,,,,,113.7,9.9,45.8,13.8,10.8,22.4

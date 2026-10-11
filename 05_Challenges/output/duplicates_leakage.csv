@@ -1,0 +1,5 @@
+sample,n,model,cv_AUC
+deduplicated (primary),2026,logistic (L2),0.858
+deduplicated (primary),2026,gradient boosting,0.8521
+duplicates kept,2208,logistic (L2),0.8627
+duplicates kept,2208,gradient boosting,0.8636

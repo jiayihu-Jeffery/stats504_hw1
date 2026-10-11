@@ -1,0 +1,13 @@
+sample,n,profile,pct_customers,acceptance,pct_acceptors,pct_spend
+primary (dedup),2026,P1,15.89,44.72,46.45,40.88
+primary (dedup),2026,P2,17.42,31.16,35.48,8.93
+primary (dedup),2026,P3,17.47,5.65,6.45,32.66
+primary (dedup),2026,P4,49.21,3.61,11.61,17.54
+duplicates kept,2208,P1,16.17,44.26,47.73,41.63
+duplicates kept,2208,P2,17.16,30.08,34.44,8.72
+duplicates kept,2208,P3,17.21,4.74,5.44,32.05
+duplicates kept,2208,P4,49.46,3.75,12.39,17.6
+flagged high-income dropped,2019,P1,16.3,44.38,47.1,41.65
+flagged high-income dropped,2019,P2,17.04,30.81,34.19,9.07
+flagged high-income dropped,2019,P3,17.14,5.2,5.81,31.93
+flagged high-income dropped,2019,P4,49.53,4.0,12.9,17.35

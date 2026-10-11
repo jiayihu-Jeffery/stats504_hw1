@@ -1,0 +1,22 @@
+Q2b — complaints, website visits, product preference by segment; n = 2026
+
+[1] Product preference index = segment mean share / overall mean share x 100 (100 = average); plus mean absolute spend per category
+                          sh_Wine  sh_Meat  sh_Fish  sh_Fruit  sh_Sweets  sh_Gold  MntWines  MntFruits  MntMeatProducts  MntFishProducts  MntSweetProducts  MntGoldProds
+Segment: S1                  42.5     97.5    196.9     201.0      199.0    185.1       NaN        NaN              NaN              NaN               NaN           NaN
+Segment: S2                 137.3     80.1     39.6      39.5       38.9     85.0       NaN        NaN              NaN              NaN               NaN           NaN
+Segment: S3                  95.5    129.3    104.2     100.1      103.4     52.2       NaN        NaN              NaN              NaN               NaN           NaN
+Segment: S1 (mean spend)      NaN      NaN      NaN       NaN        NaN      NaN      37.0       16.8             36.2             21.6              16.2          27.8
+Segment: S2 (mean spend)      NaN      NaN      NaN       NaN        NaN      NaN     302.2       10.2             76.2             13.1              10.0          37.2
+Segment: S3 (mean spend)      NaN      NaN      NaN       NaN        NaN      NaN     527.0       55.9            399.2             83.2              59.6          65.5
+
+[2] Complaints: 19 customers (0.94%) complained in the last 2 years.
+  Acceptance: complained 0.158 [0.055, 0.376] vs not 0.153 [0.138, 0.169]; Fisher exact p = 1.000
+  Median spend: complained 99 vs not 397; Mann-Whitney p = 0.125
+
+[3] Website visits last month
+visits   n  acceptance    lo    hi  median_spend  web_share  deal_ratio  web_purchases  mean_kidhome
+   0-2 326       0.193 0.154 0.240        1171.0      0.226       0.076          3.905         0.028
+   3-5 645       0.124 0.101 0.152         602.0      0.302       0.200          4.434         0.312
+   6-8 964       0.143 0.122 0.167         143.5      0.373       0.314          3.954         0.638
+    9+  91       0.319 0.232 0.420         137.0      0.470       0.377          3.978         0.813
+  Spearman(visits, total spend) = -0.466; Spearman(visits, web purchases) = -0.088

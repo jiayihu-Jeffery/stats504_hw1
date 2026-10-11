@@ -1,0 +1,101 @@
+Q2 — primary sample n = 2026
+
+[1] Mean behaviour by IncomeQ
+                n  sh_Wine  sh_Fruit  sh_Meat  sh_Fish  sh_Sweets  sh_Gold  ch_Web  ch_Catalog  ch_Store  DealRatio  NumWebVisitsMonth  AvgTicket  TotalPurch
+IncomeQ                                                                                                                                                      
+Q1 (lowest)   507    0.276     0.076    0.253    0.111      0.076    0.208   0.345       0.072     0.583      0.367              7.022     13.222       5.493
+Q2            506    0.517     0.035    0.226    0.053      0.036    0.133   0.364       0.108     0.527      0.327              6.296     21.127       8.787
+Q3            506    0.588     0.039    0.204    0.050      0.038    0.082   0.339       0.189     0.472      0.198              5.055     43.101      16.601
+Q4 (highest)  507    0.458     0.048    0.316    0.069      0.053    0.056   0.276       0.291     0.433      0.077              2.933     73.098      19.345
+
+[1] Mean behaviour by Children
+             n  sh_Wine  sh_Fruit  sh_Meat  sh_Fish  sh_Sweets  sh_Gold  ch_Web  ch_Catalog  ch_Store  DealRatio  NumWebVisitsMonth  AvgTicket  TotalPurch
+Children                                                                                                                                                  
+0          569    0.395     0.059    0.310    0.085      0.062    0.089   0.275       0.263     0.463      0.089              3.508     63.199      16.573
+1         1029    0.467     0.052    0.226    0.072      0.053    0.130   0.354       0.138     0.508      0.250              5.922     30.339      12.016
+2          383    0.523     0.032    0.226    0.049      0.033    0.137   0.353       0.104     0.543      0.426              6.313     21.334       8.650
+3           45    0.559     0.023    0.244    0.035      0.028    0.112   0.326       0.084     0.590      0.432              6.289     22.648       7.378
+
+Overall means:
+sh_Wine               0.460
+sh_Fruit              0.049
+sh_Meat               0.250
+sh_Fish               0.071
+sh_Sweets             0.051
+sh_Gold               0.120
+ch_Web                0.331
+ch_Catalog            0.165
+ch_Store              0.504
+DealRatio             0.242
+NumWebVisitsMonth     5.326
+AvgTicket            37.656
+TotalPurch           12.556
+
+[2] Segmentation sample: 2020 (excluded 6 with no recorded channel purchases)
+Features (standardised): sh_Wine, sh_Fruit, sh_Meat, sh_Fish, sh_Sweets, sh_Gold, ch_Web, ch_Catalog, ch_Store, DealRatio, NumWebVisitsMonth  — TotalSpend and Income deliberately excluded
+k selection:
+ k  kmeans_silhouette  kmeans_min_size_pct   gmm_bic
+ 3              0.207               25.297 -2294.932
+ 4              0.174               17.970 -3159.907
+ 5              0.164               16.089 -5340.132
+Chosen k = 3 (highest K-means silhouette among k with every segment >= 5%)
+Bootstrap stability (100 resamples): ARI mean = 0.942, 5th-95th pct = [0.902, 0.972]
+
+[3] Segment profiles (means)
+Segment                          S1         S2         S3
+n                           511.000    870.000    639.000
+pct                          25.300     43.100     31.600
+sh_Wine                       0.195      0.631      0.439
+sh_Fruit                      0.099      0.019      0.049
+sh_Meat                       0.243      0.200      0.323
+sh_Fish                       0.139      0.028      0.074
+sh_Sweets                     0.101      0.020      0.053
+sh_Gold                       0.221      0.102      0.062
+ch_Web                        0.336      0.382      0.257
+ch_Catalog                    0.080      0.120      0.295
+ch_Store                      0.584      0.498      0.448
+DealRatio                     0.330      0.303      0.089
+NumWebVisitsMonth             6.382      6.497      2.834
+TotalSpend                  155.663    448.845   1190.326
+AvgTicket                    16.351     30.385     64.593
+TotalPurch                    6.896     11.684     18.388
+Recency                      48.767     48.537     49.412
+Income                    31948.593  48502.944  72862.092
+Age                          40.067     47.064     46.441
+Kidhome                       0.716      0.560      0.069
+Teenhome                      0.295      0.778      0.316
+Children                      1.012      1.338      0.385
+TenureMonths                 11.716     11.980     10.968
+Response                      0.106      0.125      0.230
+PrevAccepted                  0.068      0.254      0.552
+pct_Partnered                 0.659      0.641      0.631
+pct_PhD                       0.053      0.313      0.221
+share_of_total_spend_pct      6.464     31.731     61.806
+
+[4] Segment x spend tier (counts)
+SpendTier  Low  Mid  High   All
+Segment                        
+S1         376  114    21   511
+S2         278  425   167   870
+S3          16  138   485   639
+All        670  677   673  2020
+Row %
+SpendTier   Low   Mid  High
+Segment                    
+S1         73.6  22.3   4.1
+S2         32.0  48.9  19.2
+S3          2.5  21.6  75.9
+
+PCA loadings
+                     PC1    PC2
+sh_Wine            0.452  0.356
+sh_Fruit          -0.340 -0.246
+sh_Meat            0.023 -0.324
+sh_Fish           -0.333 -0.247
+sh_Sweets         -0.319 -0.232
+sh_Gold           -0.388  0.058
+ch_Web            -0.086  0.365
+ch_Catalog         0.326 -0.359
+ch_Store          -0.237  0.040
+DealRatio         -0.289  0.342
+NumWebVisitsMonth -0.250  0.457

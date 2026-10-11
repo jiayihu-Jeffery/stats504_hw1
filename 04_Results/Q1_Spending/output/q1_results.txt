@@ -1,0 +1,92 @@
+Q1 — primary sample n = 2026
+
+[1] TotalSpend by group
+variable        level    n  median   mean    q25    q75
+ IncomeQ  Q1 (lowest)  507    53.0   83.3   31.5   81.0
+ IncomeQ           Q2  506   149.0  232.1   60.2  347.8
+ IncomeQ           Q3  506   733.0  752.1  433.8 1032.0
+ IncomeQ Q4 (highest)  507  1370.0 1361.8 1039.5 1681.0
+ Kidhome            0 1168   902.0  906.2  403.2 1335.2
+ Kidhome            1  817    72.0  204.5   42.0  231.0
+ Kidhome            2   41    61.0  124.6   17.0  131.0
+Teenhome            0 1044   387.5  693.4   61.0 1284.2
+Teenhome            1  933   395.0  512.4   88.0  841.0
+Teenhome            2   49   459.0  585.7  126.0  902.0
+Children            0  569  1192.0 1118.5  664.0 1612.0
+Children            1 1029   306.0  473.7   65.0  798.0
+Children            2  383    93.0  248.7   45.0  315.5
+Children            3   45    78.0  258.6   22.0  282.0
+     Edu        Basic   49    57.0   83.9   29.0   80.0
+     Edu   Graduation 1017   415.0  623.4   70.0 1073.0
+     Edu       Master  518   333.0  575.6   67.2  964.8
+     Edu          PhD  442   489.5  666.2   88.0 1142.0
+ Marital    Partnered 1300   397.0  599.2   68.0 1021.0
+ Marital       Single  726   396.0  622.3   71.2 1101.2
+
+[2-5] % difference in MEAN spend (Gamma) / GEOMETRIC-MEAN spend (log-OLS), 95% CI, HC3 SEs. Income term = effect of 10% higher income. unadj = single-predictor Gamma GLM.
+                             term  unadj_pct  unadj_lo  unadj_hi  gamma_pct  gamma_lo  gamma_hi  gamma_p  logols_pct  logols_lo  logols_hi  logols_p
+ Education: Basic (vs Graduation)      -86.5     -91.2     -79.3      -55.6     -75.6     -19.2      0.0        -2.2      -29.8       36.3       0.9
+Education: Master (vs Graduation)       -7.7     -17.1       2.8      -12.3     -21.3      -2.1      0.0        -3.0      -10.9        5.6       0.5
+   Education: PhD (vs Graduation)        6.9      -3.7      18.6       -5.4     -14.5       4.6      0.3        -5.4      -13.8        3.9       0.2
+   Marital: Single (vs Partnered)        3.9      -5.1      13.6       -7.6     -15.8       1.3      0.1        -1.4       -8.6        6.4       0.7
+                      Income +10%       11.8       7.4      16.4        9.9       5.7      14.3      0.0        18.9       16.8       21.1       0.0
+                          Kidhome      -73.8     -76.5     -70.6      -61.8     -66.2     -56.8      0.0       -58.8      -63.2      -54.0       0.0
+                         Teenhome      -21.5     -27.2     -15.3      -22.3     -29.7     -14.0      0.0       -21.7      -27.5      -15.4       0.0
+                      Age +10 yrs       10.0       6.0      14.2       -0.9      -4.0       2.2      0.6        -1.9       -5.2        1.5       0.3
+                  Tenure +1 month        2.5       1.8       3.2        4.3       3.7       5.0      0.0         4.4        3.8        4.9       0.0
+
+Gamma GLM: deviance-based pseudo-R2 = 0.537; log-OLS R2 = 0.695
+log(Income) coefficient (elasticity): Gamma 0.993; log-OLS 1.817
+
+Gamma GLM with B-spline (df=4) in log(Income): household/demographic % effects (95% CI)
+                             term  gspline_pct  gspline_lo  gspline_hi
+ Education: Basic (vs Graduation)         -0.5       -21.9        26.7
+Education: Master (vs Graduation)          0.4        -6.1         7.3
+   Education: PhD (vs Graduation)          0.3        -6.6         7.7
+   Marital: Single (vs Partnered)          0.9        -4.7         6.9
+                          Kidhome        -38.5       -42.8       -33.9
+                         Teenhome        -15.2       -20.7        -9.4
+                      Age +10 yrs         -2.3        -4.7         0.1
+                  Tenure +1 month          4.4         3.9         4.8
+Gamma spline pseudo-R2 = 0.738
+Unadjusted log-OLS Teenhome: 0.2% (p = 0.976) -> on the geometric-mean scale the unadjusted teen association is ~0; on the mean scale (Gamma) it is negative.
+
+[6] Shapley R2 decomposition (log-OLS, total R2 = 0.695)
+           shapley_R2  share_of_R2_pct
+Income         0.4093             58.9
+Kidhome        0.2190             31.5
+Tenure         0.0372              5.4
+Education      0.0140              2.0
+Age            0.0108              1.6
+Teenhome       0.0048              0.7
+Marital        0.0001              0.0
+
+[7] Diagnostics
+Income spline (B-spline df=4) vs linear log(Income), Gamma deviance: 846.3 vs 1495.3; AIC 26886.8 vs 30849.4
+Income x Kidhome interaction: coef = -0.479, p = 0.0675
+VIF:
+logInc            1.43
+Kidhome           1.34
+Teenhome          1.17
+Age10             1.25
+TenureMonths      1.01
+Edu_Basic         1.13
+Edu_Master        1.13
+Edu_PhD           1.14
+Marital_Single    1.00
+
+[8] Spend concentration: top 20% of customers account for 52.3% of total spend; top 10%: 30.2%
+
+[S] Sensitivity — Gamma GLM % effects
+sample                   primary (dedup)  not deduplicated  dedup, flagged dropped
+n                                 2026.0            2208.0                  2019.0
+Gamma: Income +10%                   9.9              10.3                    10.0
+logOLS: Income +10%                 18.9              19.5                    19.7
+Gamma: Kidhome                     -61.8             -60.3                   -61.7
+logOLS: Kidhome                    -58.8             -57.7                   -57.9
+Gamma: Teenhome                    -22.3             -21.9                   -22.5
+logOLS: Teenhome                   -21.7             -21.0                   -23.2
+Gamma: Tenure +1 month               4.3               4.2                     4.3
+logOLS: Tenure +1 month              4.4               4.3                     4.3
+GammaSpline: Kidhome               -38.5             -37.5                   -36.9
+GammaSpline: Teenhome              -15.2             -14.2                   -18.9

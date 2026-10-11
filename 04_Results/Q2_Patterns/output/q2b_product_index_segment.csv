@@ -1,0 +1,7 @@
+,sh_Wine,sh_Meat,sh_Fish,sh_Fruit,sh_Sweets,sh_Gold,MntWines,MntFruits,MntMeatProducts,MntFishProducts,MntSweetProducts,MntGoldProds
+Segment: S1,42.5,97.5,196.9,201.0,199.0,185.1,,,,,,
+Segment: S2,137.3,80.1,39.6,39.5,38.9,85.0,,,,,,
+Segment: S3,95.5,129.3,104.2,100.1,103.4,52.2,,,,,,
+Segment: S1 (mean spend),,,,,,,37.0,16.8,36.2,21.6,16.2,27.8
+Segment: S2 (mean spend),,,,,,,302.2,10.2,76.2,13.1,10.0,37.2
+Segment: S3 (mean spend),,,,,,,527.0,55.9,399.2,83.2,59.6,65.5

@@ -1,0 +1,4 @@
+fit,deviance,income_coef,kidhome_pct
+"linear log(income), default IRLS",3041.773,-0.648,-77.317
+"linear log(income), Newton from OLS start",1495.265,0.993,-61.786
+"B-spline log(income), Newton from OLS start",846.324,,-38.472

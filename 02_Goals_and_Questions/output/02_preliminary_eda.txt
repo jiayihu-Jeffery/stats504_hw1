@@ -1,0 +1,178 @@
+provisional analysis sample: 2212 of 2240 (dropped NA income, birth<1930, income=666666)
+
+=== Q1: median TotalSpend by group ===
+         median    mean  size
+IncQ                         
+Q1 low     52.0    82.0   553
+Q2        148.0   231.0   553
+Q3        736.0   758.0   554
+Q4 high  1366.0  1359.0   552 
+
+         median   mean  size
+Kidhome                     
+0         906.0  902.0  1281
+1          72.0  205.0   885
+2          62.0  136.0    46 
+
+          median   mean  size
+Teenhome                     
+0          384.0  693.0  1144
+1          396.0  512.0  1017
+2          458.0  580.0    51 
+
+          median    mean  size
+Children                      
+0         1188.0  1104.0   632
+1          308.0   476.0  1114
+2           94.0   247.0   416
+3           80.0   256.0    50 
+
+            median   mean  size
+Edu                            
+Basic         57.0   82.0    54
+Graduation   415.0  622.0  1115
+Master       326.0  571.0   563
+PhD          494.0  674.0   480 
+
+           median   mean  size
+Marital                       
+Other       796.0  808.0     4
+Partnered   396.0  598.0  1428
+Single      397.0  623.0   780 
+
+Spearman with TotalSpend:
+Income          0.853
+Age2014         0.160
+Kidhome        -0.616
+Teenhome       -0.056
+TenureMonths    0.183
+Recency         0.019
+dtype: float64
+
+OLS log(TotalSpend), HC3 SEs:
+ =============================================================================================================
+                                                coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                   -14.4093      1.041    -13.843      0.000     -16.449     -12.369
+C(Edu, Treatment('Graduation'))[T.Basic]     -0.0114      0.156     -0.073      0.942      -0.318       0.295
+C(Edu, Treatment('Graduation'))[T.Master]    -0.0273      0.041     -0.662      0.508      -0.108       0.054
+C(Edu, Treatment('Graduation'))[T.PhD]       -0.0527      0.045     -1.166      0.244      -0.141       0.036
+C(Marital)[T.Partnered]                       0.0491      0.254      0.193      0.847      -0.448       0.546
+C(Marital)[T.Single]                          0.0423      0.254      0.166      0.868      -0.456       0.541
+np.log(Income)                                1.8675      0.092     20.238      0.000       1.687       2.048
+Kidhome                                      -0.8592      0.053    -16.179      0.000      -0.963      -0.755
+Teenhome                                     -0.2365      0.037     -6.414      0.000      -0.309      -0.164
+Age2014                                      -0.0015      0.002     -0.935      0.350      -0.005       0.002
+TenureMonths                                  0.0415      0.003     16.240      0.000       0.037       0.047
+============================================================================================================= 
+R2=0.701
+R2 income+kids+teens only = 0.666
+
+=== Q2: overall mean product share ===
+ Wines            0.459
+Fruits           0.049
+MeatProducts     0.249
+FishProducts     0.072
+SweetProducts    0.051
+GoldProds        0.120
+dtype: float64
+
+product share by income quartile:
+          Wines  Fruits  MeatProducts  FishProducts  SweetProducts  GoldProds
+IncQ                                                                        
+Q1 low   0.274   0.076         0.252         0.113          0.077      0.208
+Q2       0.516   0.035         0.225         0.054          0.036      0.133
+Q3       0.587   0.039         0.204         0.050          0.038      0.082
+Q4 high  0.459   0.048         0.315         0.069          0.053      0.057
+
+product share by Children:
+           Wines  Fruits  MeatProducts  FishProducts  SweetProducts  GoldProds
+Children                                                                     
+0         0.392   0.059         0.308         0.088          0.062      0.092
+1         0.467   0.052         0.226         0.073          0.052      0.130
+2         0.525   0.032         0.224         0.048          0.034      0.137
+3         0.571   0.021         0.240         0.034          0.026      0.108
+
+channel share by income quartile:
+            Web  Catalog  Store
+IncQ                          
+Q1 low   0.341    0.072  0.587
+Q2       0.366    0.107  0.527
+Q3       0.336    0.190  0.473
+Q4 high  0.275    0.291  0.433
+
+channel share by Children:
+             Web  Catalog  Store
+Children                       
+0         0.274    0.263  0.464
+1         0.353    0.137  0.510
+2         0.352    0.103  0.545
+3         0.335    0.085  0.580
+
+Deals purchases / web visits by Children:
+           NumDealsPurchases  NumWebVisitsMonth  TotalPurch
+Children                                                  
+0                      1.14               3.50       16.44
+1                      2.47               5.94       12.05
+2                      3.56               6.31        8.67
+3                      3.60               6.40        7.58
+
+Spend concentration: top 20% customers' share of total spend = 0.522
+
+=== Q3: Response rate by group ===
+          mean  size
+IncQ                
+Q1 low   0.105   553
+Q2       0.125   553
+Q3       0.103   554
+Q4 high  0.270   552 
+
+           mean  size
+Children             
+0         0.266   632
+1         0.104  1114
+2         0.113   416
+3         0.040    50 
+
+             mean  size
+Edu                    
+Basic       0.037    54
+Graduation  0.136  1115
+Master      0.139   563
+PhD         0.210   480 
+
+            mean  size
+Marital               
+Other      0.500     4
+Partnered  0.111  1428
+Single     0.222   780 
+
+               mean  size
+PrevAccepted             
+0             0.083  1754
+1             0.311   322
+2             0.519    81
+3             0.795    44
+4             0.909    11 
+
+             mean  size
+RecencyBin             
+0-24        0.268   560
+25-49       0.144   550
+50-74       0.114   562
+75-99       0.074   540 
+
+          mean  size
+TenureT             
+newest   0.086   744
+mid      0.120   732
+oldest   0.246   736 
+
+5-fold CV AUC (L2 logistic):
+  A demographics               AUC=0.703  top-decile resp rate=0.437 (lift 2.90x)
+  B demo + behaviour/tenure    AUC=0.857  top-decile resp rate=0.554 (lift 3.68x)
+  C B + prior campaigns        AUC=0.902  top-decile resp rate=0.716 (lift 4.76x)
+  D prior campaigns only       AUC=0.723  top-decile resp rate=0.527 (lift 3.50x)
+  base rate = 0.151
+
+figures saved

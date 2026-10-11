@@ -1,0 +1,3 @@
+scorecard,items,cv_AUC_mean,cv_AUC_sd,cv_top20_capture_pct,max_points
+Scorecard A (existing customers),6,0.8314799773194028,0.022942119555089374,60.12903225806452,77
+Scorecard N (new customers: no history needed),6,0.7558255999860024,0.023025125210133213,47.096774193548384,54

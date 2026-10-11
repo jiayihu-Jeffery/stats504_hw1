@@ -1,0 +1,36 @@
+== PRIMARY (deduplicated) ==
+  raw                                                 2240
+  drop missing Income                                 2216  (-24)
+  drop Year_Birth < 1930                              2213  (-3)
+  drop Income = 666,666                               2212  (-1)
+  drop Marital_Status Absurd/YOLO                     2208  (-4)
+  deduplicate (identical on all non-ID fields)        2026  (-182)
+  final n = 2026; Response rate = 0.1530; flagged Income>150k = 7; TotalPurch==0: 6
+== SENSITIVITY: not deduplicated ==
+  raw                                                 2240
+  drop missing Income                                 2216  (-24)
+  drop Year_Birth < 1930                              2213  (-3)
+  drop Income = 666,666                               2212  (-1)
+  drop Marital_Status Absurd/YOLO                     2208  (-4)
+  final n = 2208; Response rate = 0.1499; flagged Income>150k = 7; TotalPurch==0: 6
+== SENSITIVITY: deduplicated, flagged high-income dropped ==
+  raw                                                 2240
+  drop missing Income                                 2216  (-24)
+  drop Year_Birth < 1930                              2213  (-3)
+  drop Income = 666,666                               2212  (-1)
+  drop Marital_Status Absurd/YOLO                     2208  (-4)
+  deduplicate (identical on all non-ID fields)        2026  (-182)
+  drop flagged Income > 150k                          2019  (-7)
+  final n = 2019; Response rate = 0.1535; flagged Income>150k = 0; TotalPurch==0: 4
+
+Raw duplicate check: 358 rows in 176 groups identical on all non-ID fields
+
+Primary sample category counts:
+Edu
+Graduation    1017
+Master         518
+PhD            442
+Basic           49
+Marital
+Partnered    1300
+Single        726

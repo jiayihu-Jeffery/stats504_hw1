@@ -1,0 +1,21 @@
+== Small groups (primary sample, n = 2026) ==
+                     group  n
+         Education = Basic 49
+3 children + teens at home 45
+          2 young children 41
+ Complained (last 2 years) 19
+  9+ web visits last month 91
+
+== Campaign heterogeneity (raw file acceptance rates) ==
+AcceptedCmp1    0.0643
+AcceptedCmp2    0.0134
+AcceptedCmp3    0.0728
+AcceptedCmp4    0.0746
+AcceptedCmp5    0.0728
+Response        0.1491
+
+== Data age == enrolment 2012-07-30 to 2014-06-29
+
+== Undocumented fields == Z_CostContact unique values: [np.int64(3)] ; Z_Revenue unique values: [np.int64(11)]
+
+== No randomisation/contact flag == the file has no field recording who was contacted in each campaign, so acceptance cannot be separated from exposure and no causal (uplift) effect can be estimated.

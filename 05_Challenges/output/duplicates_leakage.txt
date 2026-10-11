@@ -1,0 +1,10 @@
+Raw file: 358 rows fall in 176 groups identical on all 28 non-ID fields; keeping one row per group removes 182 rows.
+
+Scenario A, 5x5 repeated stratified CV:
+                sample    n             model  cv_AUC
+deduplicated (primary) 2026     logistic (L2)   0.858
+deduplicated (primary) 2026 gradient boosting   0.852
+       duplicates kept 2208     logistic (L2)   0.863
+       duplicates kept 2208 gradient boosting   0.864
+
+Flexible models gain more from duplicates (memorised twins in the test fold) -> deduplicate before validation.
