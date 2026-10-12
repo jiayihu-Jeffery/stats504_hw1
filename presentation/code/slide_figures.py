@@ -80,6 +80,20 @@ a = ax[1]; a.plot(k, ic.elasticity, color=S3, lw=1.6); a.axhline(1, color=GREY, 
 a.set(xlabel="Income (thousands)", ylabel="% spend per 1% income", title="B  Its slope (elasticity)"); grid(a, "both")
 save(fig, "q1_income_curve")
 
+# ---------- Q1: one figure for "why Gamma" and "why a curve" ----------
+fig, ax = plt.subplots(1, 2, figsize=(5.4, 2.15))
+a = ax[0]; m = np.linspace(0, emp.my.max() * 1.05, 100)
+a.plot(emp.my, emp.sd, "o", color=S3, ms=4, label="Actual (10 groups)", zorder=5)
+a.plot(m, cv * m, color=S1, lw=1.6, label="Gamma: grows"); a.axhline(sigma, color=S2, ls="--", lw=1.4, label="Ordinary reg.: flat")
+a.set(xlabel="Mean spend in group", ylabel="SD of spend", ylim=(0, 1100), title="A  Spread grows with the mean"); a.legend(loc="upper left", fontsize=6.3); grid(a)
+a = ax[1]; a.fill_between(k, ic.mult_lo, ic.mult_hi, color=S1, alpha=.2, lw=0); a.plot(k, ic.multiplier, color=S1, lw=1.6)
+a.axhline(1, color=GREY, ls="--", lw=.7)
+for v in [20, 51.5, 65, 90]:
+    yv_ = float(np.exp(np.interp(np.log(v * 1000), np.log(ic.income), np.log(ic.multiplier))))
+    a.plot(v, yv_, "o", color=S1, ms=3); a.annotate(f"×{yv_:.2f}", (v, yv_), xytext=(-4, 5), textcoords="offset points", ha="right", fontsize=6.5, color=INK2)
+a.set(xlabel="Income (thousands)", ylabel="× median-income spend", title="B  Income effect bends"); grid(a, "both")
+save(fig, "q1_gamma_and_curve")
+
 # ---------- Q1: Shapley shares ----------
 sh = pd.read_csv(Q1 / "q1_shapley_gamma_deviance.csv", index_col=0)
 sh = sh.sort_values("share_of_explained_deviance_pct")
