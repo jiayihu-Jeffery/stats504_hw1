@@ -1,5 +1,7 @@
 # Customer Personality Analysis：分析计划
 
+> **Historical document.** Written before the repository was reorganised by report section; file paths (e.g. `scripts/`) refer to the original layout, and some planned analyses changed. The final methods and file locations are in the root [`README.md`](../README.md).
+
 > 状态：初稿，供组内讨论（2026-10-06）
 > 数据：Kaggle `imakash3011/customer-personality-analysis`，`marketing_campaign.csv`（制表符分隔，2240 行 × 29 列，CC0，最后更新 2021-08-22）
 > 代码与输出：`scripts/01_data_audit.py`、`scripts/02_preliminary_eda.py` → `output/`

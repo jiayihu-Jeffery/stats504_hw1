@@ -88,7 +88,7 @@ ax[3].set_xlim(k.min(), k.max()); ax[3].set_ylim(0, 5.4)
 ax[3].set_xlabel("Income (thousands)"); ax[3].set_ylabel("× median-income spend")
 ax[3].legend(loc="upper left", handlelength=1, borderaxespad=0)
 ax[3].set_title("A  Income curve"); grid(ax[3], "both")
-plt.tight_layout(w_pad=1.2); plt.savefig(FIG / "summary_fig1.png", dpi=220); plt.savefig(FIG / "summary_fig1.pdf"); plt.close()  # PDF = vector version for LaTeX
+plt.tight_layout(w_pad=1.2); plt.savefig(FIG / "summary_fig1.png", dpi=220); plt.savefig(FIG / "summary_fig1.pdf", metadata={"CreationDate": None}); plt.close()  # PDF = vector version for LaTeX
 
 # ======================= Figure 2: response & priorities =======================
 fig, ax = plt.subplots(1, 3, figsize=(7.3, 2.2), gridspec_kw={"width_ratios": [0.9, 1.45, 1.05]})
@@ -134,5 +134,5 @@ ax[2].set_xlim(0, 100); ax[2].set_ylim(0, 102)
 ax[2].set_xlabel("Contacted, ranked by score (%)"); ax[2].set_ylabel("Acceptors reached (%)")
 ax[2].legend(loc="lower right", handlelength=1.3, borderaxespad=0.2, fontsize=6.7, labelspacing=.3)
 ax[2].set_title("C  Targeting vs random"); grid(ax[2], "both")
-plt.tight_layout(w_pad=1.2); plt.savefig(FIG / "summary_fig2.png", dpi=220); plt.savefig(FIG / "summary_fig2.pdf"); plt.close()  # PDF = vector version for LaTeX
+plt.tight_layout(w_pad=1.2); plt.savefig(FIG / "summary_fig2.png", dpi=220); plt.savefig(FIG / "summary_fig2.pdf", metadata={"CreationDate": None}); plt.close()  # PDF = vector version for LaTeX
 print("saved summary_fig1.png, summary_fig2.png")

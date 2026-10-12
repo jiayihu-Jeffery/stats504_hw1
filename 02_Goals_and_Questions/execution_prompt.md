@@ -1,5 +1,7 @@
 # Execution Prompt：Customer Personality Analysis
 
+> **Historical document.** Written before the repository was reorganised by report section; file paths (e.g. `scripts/`) refer to the original layout, and some planned analyses changed. The final methods and file locations are in the root [`README.md`](../README.md).
+
 You are a senior statistical consultant. You are carrying out a client analysis with reproducible Python (pandas, statsmodels, scikit-learn, matplotlib). Work in `customer_personality/`. The data are in `data/marketing_campaign.csv` (tab-separated). The variable documentation is in `data/meta.json`. The prior audit is in `ANALYSIS_PLAN.md` and `output/01_data_audit.txt`.
 
 ## Client questions
