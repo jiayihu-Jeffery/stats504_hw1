@@ -1,0 +1,5 @@
+model,deviance,AIC,deviance_R2,young_child_pct
+"income, straight line",1055.588,28141.096,0.673,-45.762
+"log income, straight line",1495.265,30849.355,0.537,-61.786
+"income, spline",831.718,26855.398,0.742,-36.29
+"log income, spline (final)",846.324,26886.791,0.738,-38.472

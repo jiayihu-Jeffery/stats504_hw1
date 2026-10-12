@@ -28,7 +28,8 @@ STEPS = [
     "05_Challenges/code/tenure_and_timing.py",
     "06_Limitations/code/limitations_evidence.py",
 ]
-REPORT = ["report/code/summary_figures.py"]   # report figures; compile report/latex/main.tex for the PDF
+REPORT = ["report/code/summary_figures.py",   # report figures; compile report/latex/main.tex for the PDF
+          "presentation/code/slide_figures.py", "presentation/code/slide_numbers.py"]   # slides (repo stats504_presentation)
 
 if __name__ == "__main__":
     steps = STEPS + ([] if "--no-report" in sys.argv else REPORT)

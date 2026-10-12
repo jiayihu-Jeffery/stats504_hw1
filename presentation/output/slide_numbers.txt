@@ -1,0 +1,70 @@
+[1] Pairwise relations (primary sample)
+corr(young children, income) = -0.52; corr(young children, spend) = -0.56; corr(income, spend) = 0.79
+mean income: with young children 38,401; without 62,037
+spend: mean 607, median 396, skewness 0.87
+
+[2] Three raw customers (transposed)
+ID                         5524        2174        4141
+Year_Birth                 1957        1954        1965
+Education            Graduation  Graduation  Graduation
+Marital_Status           Single      Single    Together
+Income                  58138.0     46344.0     71613.0
+Kidhome                       0           1           0
+Teenhome                      0           1           0
+Dt_Customer          04-09-2012  08-03-2014  21-08-2013
+Recency                      58          38          26
+MntWines                    635          11         426
+MntFruits                    88           1          49
+MntMeatProducts             546           6         127
+MntFishProducts             172           2         111
+MntSweetProducts             88           1          21
+MntGoldProds                 88           6          42
+NumDealsPurchases             3           2           1
+NumWebPurchases               8           1           8
+NumCatalogPurchases          10           1           2
+NumStorePurchases             4           2          10
+NumWebVisitsMonth             7           5           4
+AcceptedCmp1                  0           0           0
+AcceptedCmp2                  0           0           0
+AcceptedCmp3                  0           0           0
+AcceptedCmp4                  0           0           0
+AcceptedCmp5                  0           0           0
+Response                      1           0           0
+
+[2b] Customer 5524 -> 11 style measures
+share_Wines               0.393
+share_MeatProducts        0.338
+share_FishProducts        0.106
+share_Fruits              0.054
+share_SweetProducts       0.054
+share_GoldProds           0.054
+share_web                 0.364
+share_catalog             0.455
+share_store               0.182
+discount_share            0.136
+web_visits                7.000
+total_spend            1617.000
+total_purchases          22.000
+
+[3] Income form inside the Gamma model
+                     model  deviance       AIC  deviance_R2  young_child_pct
+     income, straight line  1055.588 28141.096        0.673          -45.762
+ log income, straight line  1495.265 30849.355        0.537          -61.786
+            income, spline   831.718 26855.398        0.742          -36.290
+log income, spline (final)   846.324 26886.791        0.738          -38.472
+
+[4] Total vs per-month spend by tenure band
+                 n  median_total  median_per_month
+band                                              
+(-0.001, 1.0]   72         194.5             347.1
+(1.0, 3.0]     191         148.0              64.4
+(3.0, 6.0]     259         195.0              45.7
+(6.0, 12.0]    536         305.5              34.3
+(12.0, 18.0]   530         507.0              34.3
+(18.0, 24.5]   438         588.5              29.8
+Spearman with tenure: total 0.19, per month -0.30
+
+[5] Median split vs top-third split
+                    group  pct_customers  acceptance  pct_acceptors  pct_spend
+median split: high x high           29.7        30.9           60.0       62.5
+      top-third split: P1           16.7        41.6           45.5       42.6

@@ -6,6 +6,7 @@ A retail client's marketing department asked four questions about its customers.
 
 - **Final report:** [`report/final_report.pdf`](report/final_report.pdf)
 - **LaTeX source:** [`report/latex/main.tex`](report/latex/main.tex), compiled with pdfLaTeX on Overleaf or locally with Tectonic.
+- **Presentation slides:** a separate repository, [`jiayihu-Jeffery/stats504_presentation`](https://github.com/jiayihu-Jeffery/stats504_presentation). Its figures and slide-only numbers are built here by [`presentation/code/`](presentation/code).
 
 This README is the guide to the project. For each section of the report it says:
 
@@ -338,6 +339,7 @@ Folders follow the report's headings. Every analysis folder has the same structu
 | [`05_Challenges/`](05_Challenges) | Challenges |
 | [`06_Limitations/`](06_Limitations) | Limitations |
 | [`report/`](report) | Final PDF, LaTeX source, figure script |
+| [`presentation/`](presentation) | Code, figures and numbers for the presentation slides |
 | [`common/`](common) | Shared code: data loading and cleaning, paths, seed (503) |
 
 ## Reproduce
