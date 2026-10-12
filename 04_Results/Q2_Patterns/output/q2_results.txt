@@ -40,6 +40,12 @@ k selection:
  5              0.164               16.089 -5340.132
 Chosen k = 3 (highest K-means silhouette among k with every segment >= 5%)
 Bootstrap stability (100 resamples): ARI mean = 0.942, 5th-95th pct = [0.902, 0.972]
+Block-weighting sensitivity (products/channels/deal/visits equally weighted): ARI vs main partition = 0.383; silhouette of main partition = 0.207 (clusters overlap; read as tendencies). Share of each segment kept together under equal weights: S1 77%, S2 53%, S3 87%
+col_0      0    1    2
+Segment               
+S1        71   45  395
+S2       459   33  378
+S3        73  558    8
 
 [3] Segment profiles (means)
 Segment                          S1         S2         S3

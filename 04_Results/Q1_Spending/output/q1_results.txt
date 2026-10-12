@@ -38,6 +38,30 @@ Education: Master (vs Graduation)       -7.7     -17.1       2.8      -12.3     
 Gamma GLM: deviance-based pseudo-R2 = 0.537; log-OLS R2 = 0.695
 log(Income) coefficient (elasticity): Gamma 0.993; log-OLS 1.817
 
+FINAL MODEL: Gamma GLM, log link, B-spline (df=4) in log income, HC3 SEs; dispersion phi = 0.4034; deviance = 846.3; null deviance = 3227.3
+                                             coef      se      lo       hi       p
+Intercept                                  7.8336  1.1968  5.4878  10.1793  0.0000
+C(Edu, Treatment('Graduation'))[T.Basic]  -0.0052  0.1232 -0.2467   0.2363  0.9664
+C(Edu, Treatment('Graduation'))[T.Master]  0.0040  0.0341 -0.0627   0.0708  0.9057
+C(Edu, Treatment('Graduation'))[T.PhD]     0.0030  0.0365 -0.0685   0.0745  0.9340
+C(Marital)[T.Single]                       0.0093  0.0294 -0.0483   0.0669  0.7519
+bs(logInc, df=4)[0]                       -4.2513  1.6460 -7.4775  -1.0251  0.0098
+bs(logInc, df=4)[1]                       -5.8730  1.0291 -7.8900  -3.8561  0.0000
+bs(logInc, df=4)[2]                        0.8260  1.2483 -1.6207   3.2727  0.5082
+bs(logInc, df=4)[3]                       -2.1394  1.2201 -4.5308   0.2519  0.0795
+Kidhome                                   -0.4857  0.0369 -0.5579  -0.4134  0.0000
+Teenhome                                  -0.1654  0.0342 -0.2325  -0.0984  0.0000
+Age10                                     -0.0237  0.0126 -0.0485   0.0010  0.0605
+TenureMonths                               0.0428  0.0021  0.0386   0.0470  0.0000
+Fitted income curve (reference: no children, median age/tenure, Graduation, Partnered):
+ income  predicted_mean_spend_at_reference  multiplier_vs_median_income
+20000.0                             79.071                        0.161
+35000.0                            181.078                        0.370
+51523.5                            489.910                        1.000
+65000.0                           1014.194                        2.070
+80000.0                           1757.994                        3.588
+90000.0                           2140.075                        4.368
+
 Gamma GLM with B-spline (df=4) in log(Income): household/demographic % effects (95% CI)
                              term  gspline_pct  gspline_lo  gspline_hi
  Education: Basic (vs Graduation)         -0.5       -21.9        26.7
@@ -60,6 +84,16 @@ Education      0.0140              2.0
 Age            0.0108              1.6
 Teenhome       0.0048              0.7
 Marital        0.0001              0.0
+
+[6b] Shapley decomposition of explained deviance, FINAL spline Gamma GLM (total deviance R2 = 0.738)
+           shapley_dev_R2  share_of_explained_deviance_pct
+Income             0.5174                             70.1
+Kidhome            0.1556                             21.1
+Tenure             0.0364                              4.9
+Education          0.0166                              2.3
+Teenhome           0.0080                              1.1
+Age                0.0035                              0.5
+Marital            0.0002                              0.0
 
 [7] Diagnostics
 Income spline (B-spline df=4) vs linear log(Income), Gamma deviance: 846.3 vs 1495.3; AIC 26886.8 vs 30849.4

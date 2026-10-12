@@ -129,11 +129,6 @@ Sections:
 8. Questions for the client.
 9. Appendix: sensitivity analyses (non-deduplicated sample, Scenario B, excluding the 7 flagged high-income records) and model details. Missing income is only 1.1%, so complete-case analysis is enough; do not add multiple imputation.
 
-Tag each key finding with one evidence label:
-- **[Descriptive]**;
-- **[Robust association]**: holds after adjustment and across sensitivity checks;
-- **[Decision-ready]**: robust, uses only variables available before the campaign, and validated out-of-sample.
-
 ## Acceptance checks before you finish
 - Every number in the report traces to a file in `output/`.
 - No claim says or implies causation.

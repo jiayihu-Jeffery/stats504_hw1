@@ -1,91 +1,102 @@
-Q4 — n = 2026; propensity score = out-of-fold Scenario A logistic (q3_oof_predictions.csv: p_Q4)
+Q4 — n = 2026; propensity score = out-of-fold Q3 explanatory logit A (q3_oof_predictions.csv: p_Q4)
 Value tier = spend tertile WITHIN 6-month tenure band (tenure-adjusted); unadjusted version reported as sensitivity
 
 [1] Priority matrix: tenure-adjusted spend tier x propensity tier (tertiles)
 SpendTierAdj                                     Low                                                                                                     Mid                                                                                                     High                                                                      
 PropTier                                         Low                               Mid                               High                                Low                                Mid                               High                                Low                                Mid                               High
-n                                              251.0                             257.0                              170.0                              263.0                              226.0                              183.0                              162.0                              192.0                              322.0
-pct_customers                                 12.389                            12.685                              8.391                             12.981                             11.155                              9.033                              7.996                              9.477                             15.893
-mean_spend                                    45.347                            57.856                             89.753                            342.122                            440.752                            517.082                           1008.438                           1242.495                           1562.267
-pct_of_total_spend                             0.925                             1.208                               1.24                              7.311                              8.094                              7.689                             13.274                             19.384                             40.875
-resp_rate                                      0.024                             0.043                              0.282                              0.011                              0.071                              0.339                              0.043                              0.068                              0.447
-resp_lo                                        0.011                             0.024                               0.22                              0.004                              0.044                              0.274                              0.021                               0.04                              0.394
-resp_hi                                        0.051                             0.075                              0.354                              0.033                              0.112                               0.41                              0.086                              0.112                              0.502
-pct_of_acceptors                               1.935                             3.548                             15.484                              0.968                              5.161                               20.0                              2.258                              4.194                             46.452
-mean_pred                                   0.018385                          0.068434                           0.268682                           0.016467                            0.06973                           0.340466                           0.016706                            0.07062                           0.453195
-dominant_segment                            S1 (56%)                          S1 (53%)                           S1 (51%)                           S2 (54%)                           S2 (63%)                           S2 (64%)                           S3 (69%)                           S3 (73%)                           S3 (73%)
-top_products                      Wine 37%, Meat 24%                Wine 36%, Meat 25%                 Wine 33%, Meat 26%                 Wine 54%, Meat 20%                 Wine 52%, Meat 22%                 Wine 50%, Meat 22%                 Wine 48%, Meat 27%                 Wine 49%, Meat 28%                 Wine 51%, Meat 30%
-channel_mix         Web 30% / Catalog 4% / Store 66%  Web 33% / Catalog 6% / Store 61%  Web 37% / Catalog 10% / Store 53%  Web 33% / Catalog 14% / Store 53%  Web 39% / Catalog 15% / Store 46%  Web 44% / Catalog 18% / Store 38%  Web 27% / Catalog 24% / Store 49%  Web 28% / Catalog 28% / Store 44%  Web 30% / Catalog 31% / Store 40%
-mean_income                                32816.116                         32586.268                          29481.235                          52424.095                          50420.407                          49006.967                          70446.043                          71898.411                          75826.798
-mean_kidhome                                   0.825                              0.84                                0.9                              0.323                              0.451                              0.497                              0.062                              0.083                              0.059
-mean_teenhome                                  0.625                             0.389                              0.276                              0.844                              0.642                              0.492                              0.667                              0.427                              0.248
-pct_single                                    14.741                            36.576                             64.118                             14.829                             41.593                             60.109                              13.58                             33.854                             48.447
-mean_prev_accepted                             0.008                             0.039                              0.235                              0.042                              0.097                              0.486                              0.099                               0.26                              1.146
-mean_tenure_m                                  7.341                            12.401                             16.178                              7.583                             12.434                             16.393                               7.09                             11.531                             13.983
-pct_joined_last_6m                            49.402                            16.342                              6.471                             46.008                             16.814                              6.557                             46.914                             22.917                              16.77
-deal_ratio                                     0.359                             0.361                              0.391                              0.233                              0.277                              0.269                              0.103                              0.106                                0.1
-web_visits                                     5.821                             6.767                              7.847                              4.608                                6.0                              6.831                              3.284                              3.505                              3.832
+n                                              295.0                             232.0                              151.0                              251.0                              236.0                              185.0                              130.0                              207.0                              339.0
+pct_customers                                 14.561                            11.451                              7.453                             12.389                             11.649                              9.131                              6.417                             10.217                             16.732
+mean_spend                                    43.149                            63.375                             93.225                            313.865                            442.966                            545.373                           1013.662                           1205.242                           1544.882
+pct_of_total_spend                             1.034                             1.195                              1.144                              6.401                              8.494                              8.198                             10.707                             20.272                             42.554
+resp_rate                                      0.024                             0.078                              0.265                               0.02                              0.059                              0.335                              0.038                              0.087                              0.416
+resp_lo                                        0.012                              0.05                              0.201                              0.009                              0.036                              0.271                              0.017                              0.056                              0.365
+resp_hi                                        0.048                             0.119                               0.34                              0.046                              0.097                              0.406                              0.087                              0.133                              0.469
+pct_of_acceptors                               2.258                             5.806                             12.903                              1.613                              4.516                               20.0                              1.613                              5.806                             45.484
+mean_pred                                   0.023394                          0.079591                           0.253627                           0.022643                            0.07875                           0.307097                           0.024482                            0.08168                           0.429987
+dominant_segment                            S1 (52%)                          S1 (55%)                           S1 (54%)                           S2 (58%)                           S2 (59%)                           S2 (63%)                           S3 (66%)                           S3 (76%)                           S3 (72%)
+top_products                      Wine 38%, Meat 25%                Wine 35%, Meat 24%                 Wine 32%, Meat 26%                 Wine 53%, Meat 20%                 Wine 51%, Meat 22%                 Wine 52%, Meat 21%                 Wine 47%, Meat 28%                 Wine 44%, Meat 31%                 Wine 55%, Meat 28%
+channel_mix         Web 31% / Catalog 3% / Store 66%  Web 33% / Catalog 7% / Store 60%  Web 37% / Catalog 10% / Store 54%  Web 35% / Catalog 14% / Store 51%  Web 39% / Catalog 15% / Store 46%  Web 41% / Catalog 17% / Store 42%  Web 29% / Catalog 25% / Store 45%  Web 28% / Catalog 29% / Store 43%  Web 28% / Catalog 29% / Store 43%
+mean_income                                 34220.42                         31074.241                          28603.166                          51018.422                          51641.182                          49502.059                          71106.215                          71993.338                          75181.575
+mean_kidhome                                    0.79                             0.862                              0.947                              0.307                              0.479                              0.476                              0.038                              0.068                              0.077
+mean_teenhome                                    0.6                             0.379                              0.258                              0.853                              0.674                              0.454                              0.769                              0.411                              0.251
+pct_single                                    17.288                            38.793                             65.563                             12.351                             41.525                             61.622                              6.154                             31.401                             50.147
+mean_prev_accepted                              0.02                             0.047                              0.232                              0.036                              0.089                              0.497                              0.046                              0.188                               1.15
+mean_tenure_m                                  7.458                             12.87                             17.179                              7.188                             12.379                             16.643                               6.53                             10.582                             14.235
+pct_joined_last_6m                            47.797                              12.5                              4.636                             48.207                             16.525                              5.946                               50.0                             27.536                             15.339
+deal_ratio                                     0.353                             0.367                              0.397                              0.246                              0.274                              0.251                              0.119                              0.101                              0.097
+web_visits                                     6.047                             6.862                              7.669                               4.94                              5.678                              6.692                              3.408                              3.242                              3.909
 
 [1c] Unadjusted (raw 2-yr spend) vs tenure-adjusted profile membership (rows = unadjusted)
 Profile                        P1 Engaged high-value  P2 Responsive, lower-spend  P3 High-value, low-propensity  P4 Low priority for campaigns   All
 Profile_unadj                                                                                                                                       
-P1 Engaged high-value                            314                          23                              0                              0   337
-P2 Responsive, lower-spend                         8                         330                              0                              0   338
-P3 High-value, low-propensity                      0                           0                            297                             39   336
-P4 Low priority for campaigns                      0                           0                             57                            958  1015
-All                                              322                         353                            354                            997  2026
-Customers in unadjusted P4 who move to P3 under tenure adjustment: 57; their mean tenure = 5.9 months
+P1 Engaged high-value                            329                          29                              0                              0   358
+P2 Responsive, lower-spend                        10                         307                              0                              0   317
+P3 High-value, low-propensity                      0                           0                            282                             33   315
+P4 Low priority for campaigns                      0                           0                             55                            981  1036
+All                                              339                         336                            337                           1014  2026
+Customers in unadjusted P4 who move to P3 under tenure adjustment: 55; their mean tenure = 5.9 months
 Unadjusted profiles (sensitivity):
                                     n  pct_customers  resp_rate  pct_of_acceptors  pct_of_total_spend  mean_tenure_m
 Profile_unadj                                                                                                       
-P1 Engaged high-value           337.0         16.634      0.454            49.355              42.124         14.610
-P2 Responsive, lower-spend      338.0         16.683      0.299            32.581               7.680         15.767
-P3 High-value, low-propensity   336.0         16.584      0.054             5.806              32.121         11.113
-P4 Low priority for campaigns  1015.0         50.099      0.037            12.258              18.075          9.323
+P1 Engaged high-value           358.0         17.670      0.419            48.387              44.182         14.981
+P2 Responsive, lower-spend      317.0         15.647      0.293            30.000               7.715         16.200
+P3 High-value, low-propensity   315.0         15.548      0.067             6.774              30.063         10.458
+P4 Low priority for campaigns  1036.0         51.135      0.044            14.839              18.041          9.321
 
 [1b] Profiles (tenure-adjusted value) = merged matrix cells: P1 = High spend x High propensity; P2 = Low/Mid spend x High propensity; P3 = High spend x Low/Mid propensity; P4 = Low/Mid spend x Low/Mid propensity
 Profile                         P1 Engaged high-value         P2 Responsive, lower-spend      P3 High-value, low-propensity     P4 Low priority for campaigns
-n                                               322.0                              353.0                              354.0                             997.0
-pct_customers                                  15.893                             17.423                             17.473                             49.21
-mean_spend                                   1562.267                            311.286                           1135.384                           216.488
-pct_of_total_spend                             40.875                              8.929                             32.658                            17.538
-resp_rate                                       0.447                              0.312                              0.056                             0.036
-resp_lo                                         0.394                              0.266                              0.037                             0.026
-resp_hi                                         0.502                              0.362                              0.086                              0.05
-pct_of_acceptors                               46.452                             35.484                              6.452                            11.613
-mean_pred                                    0.453195                           0.305896                           0.045948                          0.042419
-dominant_segment                             S3 (73%)                           S2 (56%)                           S3 (71%)                          S2 (50%)
-top_products                       Wine 51%, Meat 30%                 Wine 42%, Meat 24%                 Wine 49%, Meat 27%                Wine 45%, Meat 23%
-channel_mix         Web 30% / Catalog 31% / Store 40%  Web 40% / Catalog 14% / Store 46%  Web 27% / Catalog 26% / Store 46%  Web 34% / Catalog 9% / Store 57%
-mean_income                                 75826.798                           39603.64                          71233.768                         41919.824
-mean_kidhome                                    0.059                              0.691                              0.073                             0.612
-mean_teenhome                                   0.248                              0.388                              0.537                             0.626
-pct_single                                     48.447                              62.04                             24.576                            26.479
-mean_prev_accepted                              1.146                              0.365                              0.186                             0.045
-mean_tenure_m                                  13.983                              16.29                              9.499                             9.864
-pct_joined_last_6m                              16.77                              6.516                             33.898                            32.598
-deal_ratio                                        0.1                              0.327                              0.105                             0.307
-web_visits                                      3.832                               7.32                              3.404                             5.785
+n                                               339.0                              336.0                              337.0                            1014.0
+pct_customers                                  16.732                             16.584                             16.634                            50.049
+mean_spend                                   1544.882                            342.176                           1131.338                           207.842
+pct_of_total_spend                             42.554                              9.342                             30.979                            17.125
+resp_rate                                       0.416                              0.304                              0.068                             0.043
+resp_lo                                         0.365                              0.257                              0.046                             0.032
+resp_hi                                         0.469                              0.355                                0.1                             0.058
+pct_of_acceptors                               45.484                             32.903                              7.419                            14.194
+mean_pred                                    0.429987                           0.283068                           0.059616                          0.048949
+dominant_segment                             S3 (72%)                           S2 (55%)                           S3 (72%)                          S2 (51%)
+top_products                       Wine 55%, Meat 28%                 Wine 43%, Meat 23%                 Wine 45%, Meat 30%                Wine 44%, Meat 23%
+channel_mix         Web 28% / Catalog 29% / Store 43%  Web 39% / Catalog 14% / Store 47%  Web 29% / Catalog 28% / Store 44%  Web 34% / Catalog 9% / Store 56%
+mean_income                                 75181.575                          40109.997                          71651.125                         41713.206
+mean_kidhome                                    0.077                              0.688                              0.056                             0.614
+mean_teenhome                                   0.251                              0.366                              0.549                             0.629
+pct_single                                     50.147                             63.393                             21.662                            26.627
+mean_prev_accepted                               1.15                              0.378                              0.134                             0.046
+mean_tenure_m                                  14.235                             16.884                              9.019                             9.775
+pct_joined_last_6m                             15.339                              5.357                             36.202                            32.544
+deal_ratio                                      0.097                              0.317                              0.108                             0.311
+web_visits                                      3.909                              7.131                              3.306                             5.874
 
 [2] Budget table (contact top x% by out-of-fold score; overall rate 0.153; 95% bootstrap CIs)
-                                 score  contact_pct  contacted  acceptors  pct_acceptors_captured  cap_lo  cap_hi  response_rate  rate_lo  rate_hi  lift_vs_all
-                  Scenario A (primary)           10        203        136                  43.871  39.930  48.014          0.670    0.591    0.739        4.378
-                  Scenario A (primary)           20        405        198                  63.871  58.702  68.906          0.489    0.435    0.536        3.195
-                  Scenario A (primary)           30        608        236                  76.129  71.845  80.952          0.388    0.347    0.429        2.537
-                  Scenario A (primary)           50       1013        281                  90.645  87.385  93.846          0.277    0.251    0.308        1.813
-                  Scenario A (primary)          100       2026        310                 100.000 100.000 100.000          0.153    0.137    0.169        1.000
-               T0 only (new customers)           10        203         92                  29.677  26.262  34.325          0.453    0.389    0.537        2.962
-               T0 only (new customers)           20        405        151                  48.710  43.959  53.823          0.373    0.323    0.420        2.437
-               T0 only (new customers)           30        608        192                  61.935  56.209  66.555          0.316    0.276    0.350        2.064
-               T0 only (new customers)           50       1013        244                  78.710  74.671  83.229          0.241    0.214    0.269        1.574
-               T0 only (new customers)          100       2026        310                 100.000 100.000 100.000          0.153    0.137    0.170        1.000
-Scenario B (needs client confirmation)           10        203        143                  46.129  41.747  50.000          0.704    0.626    0.778        4.604
-Scenario B (needs client confirmation)           20        405        213                  68.710  63.754  73.356          0.526    0.464    0.583        3.437
-Scenario B (needs client confirmation)           30        608        256                  82.581  79.020  86.769          0.421    0.383    0.469        2.752
-Scenario B (needs client confirmation)           50       1013        293                  94.516  92.211  97.125          0.289    0.262    0.319        1.890
-Scenario B (needs client confirmation)          100       2026        310                 100.000 100.000 100.000          0.153    0.138    0.169        1.000
+                                                    score  contact_pct  contacted  acceptors  pct_acceptors_captured  cap_lo  cap_hi  response_rate  rate_lo  rate_hi  lift_vs_all
+                            Explanatory logit A (primary)           10        203        127                  40.968  36.942  45.305          0.626    0.552    0.700        4.089
+                            Explanatory logit A (primary)           20        405        185                  59.677  55.025  64.610          0.457    0.405    0.511        2.985
+                            Explanatory logit A (primary)           30        608        230                  74.194  69.667  78.964          0.378    0.339    0.419        2.472
+                            Explanatory logit A (primary)           50       1013        275                  88.710  85.373  92.359          0.271    0.245    0.300        1.774
+                            Explanatory logit A (primary)          100       2026        310                 100.000 100.000 100.000          0.153    0.137    0.169        1.000
+                                  T0 only (new customers)           10        203         92                  29.677  26.262  34.325          0.453    0.389    0.537        2.962
+                                  T0 only (new customers)           20        405        151                  48.710  43.959  53.823          0.373    0.323    0.420        2.437
+                                  T0 only (new customers)           30        608        192                  61.935  56.209  66.555          0.316    0.276    0.350        2.064
+                                  T0 only (new customers)           50       1013        244                  78.710  74.671  83.229          0.241    0.214    0.269        1.574
+                                  T0 only (new customers)          100       2026        310                 100.000 100.000 100.000          0.153    0.137    0.170        1.000
+Explanatory logit B, +recency (needs client confirmation)           10        203        138                  44.516  39.862  48.256          0.680    0.596    0.744        4.443
+Explanatory logit B, +recency (needs client confirmation)           20        405        203                  65.484  60.588  69.838          0.501    0.444    0.558        3.276
+Explanatory logit B, +recency (needs client confirmation)           30        608        251                  80.968  76.645  85.017          0.413    0.373    0.454        2.698
+Explanatory logit B, +recency (needs client confirmation)           50       1013        293                  94.516  91.615  96.805          0.289    0.260    0.318        1.890
+Explanatory logit B, +recency (needs client confirmation)          100       2026        310                 100.000 100.000 100.000          0.153    0.138    0.169        1.000
 
 [3] CONDITIONAL profit (assumes cost 3/contact, revenue 11/acceptance; break-even rate = 0.273). In-sample out-of-fold scores; not validated on a future campaign.
-           score  best_contact_pct  best_profit  rate_at_best  profit_contact_all
-Scenario A score            13.820          975         0.589               -2668
-   T0-only score            14.808          475         0.417               -2668
+                    score  best_contact_pct  best_profit  rate_at_best  profit_contact_all
+Explanatory logit A score            18.954          850         0.474               -2668
+            T0-only score            14.808          475         0.417               -2668
+
+[4] Profile traits vs all customers
+                               P1 Engaged high-value  P2 Responsive, lower-spend  P3 High-value, low-propensity  P4 Low priority for campaigns  All customers
+n                                              339.0                       336.0                          337.0                         1014.0         2026.0
+pct_accepted_earlier_campaign                   66.1                        32.4                           13.4                            4.6           21.0
+mean_income                                  75181.6                     40110.0                        71651.1                        41713.2        52027.2
+pct_no_young_children                           92.3                        35.4                           94.4                           41.2           57.7
+pct_no_teenagers                                75.5                        64.3                           48.7                           40.2           51.5
+mean_tenure_months                              14.2                        16.9                            9.0                            9.8           11.6
+pct_single                                      50.1                        63.4                           21.7                           26.6           35.8
+mean_discount_share_pct                          9.7                        31.7                           10.8                           31.1           24.2

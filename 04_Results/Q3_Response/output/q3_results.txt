@@ -68,17 +68,62 @@ TenureMonths                               1.132  1.103  1.162  0.000   1.025   
 logSpend                                   1.413  1.166  1.712  0.000   2.858   1.259   4.457
 PrevAccepted                               4.690  3.691  5.959  0.000  12.779  11.125  14.433
 Recency10                                  0.730  0.688  0.776  0.000  -2.597  -3.074  -2.121
+
+[2] Explanatory logit, model A0_no_spend (HC1 SEs; pseudo-R2 = 0.276; n = 2026). Units: logInc/logSpend per 1 log-unit (~2.7x); Age per 10y; Tenure per month; Recency per 10 days; AME in percentage points
+                                              OR  OR_lo  OR_hi      p  AME_pp  AME_lo  AME_hi
+C(Edu, Treatment('Graduation'))[T.Basic]   0.246  0.053  1.138  0.073 -12.939 -27.054   1.175
+C(Edu, Treatment('Graduation'))[T.Master]  1.103  0.772  1.574  0.591   0.900  -2.381   4.182
+C(Edu, Treatment('Graduation'))[T.PhD]     2.039  1.433  2.900  0.000   6.572   3.380   9.765
+C(Marital)[T.Single]                       2.985  2.231  3.994  0.000  10.091   7.493  12.688
+logInc                                     1.123  0.797  1.584  0.507   1.073  -2.103   4.250
+Age10                                      1.073  0.939  1.226  0.300   0.651  -0.582   1.884
+Kidhome                                    1.375  1.010  1.873  0.043   2.941   0.068   5.813
+Teenhome                                   0.402  0.298  0.544  0.000  -8.399 -11.194  -5.603
+TenureMonths                               1.125  1.098  1.153  0.000   1.088   0.871   1.306
+PrevAccepted                               4.294  3.449  5.346  0.000  13.446  11.667  15.226
 corr(logInc, logSpend) = 0.750
 
 [3] Predictive performance, 5x5 repeated stratified CV (base rate 0.153). Top-10% metrics use repeat-averaged out-of-fold scores; lift CI = 1000 bootstrap resamples.
-                         features      model  n_features  AUC_mean  AUC_sd  PRAUC_mean  PRAUC_sd  top10_rate  top10_lift  lift_lo  lift_hi
-         T0 (demographics/tenure)   logit_L2           9     0.755   0.021       0.406     0.035       0.453       2.962    2.594    3.446
-         T0 (demographics/tenure) grad_boost           9     0.737   0.025       0.416     0.047       0.483       3.155    2.763    3.657
-Scenario A (T0+T1 w/o Recency+T2)   logit_L2          26     0.858   0.019       0.595     0.038       0.670       4.378    3.925    4.817
-Scenario A (T0+T1 w/o Recency+T2) grad_boost          26     0.852   0.018       0.560     0.034       0.635       4.153    3.743    4.587
-  Scenario B (all, incl. Recency)   logit_L2          27     0.894   0.018       0.642     0.035       0.704       4.604    4.180    5.022
-  Scenario B (all, incl. Recency) grad_boost          27     0.897   0.016       0.648     0.040       0.675       4.411    4.016    4.861
-Model carried to Q4: Scenario A, logit_L2 (rule: logistic unless boosting AUC higher by > 0.01)
+                         features               model  n_features  AUC_mean  AUC_sd  PRAUC_mean  PRAUC_sd  top10_rate  top10_lift  lift_lo  lift_hi
+   Explanatory logit A (11 terms) logit (unpenalised)          11     0.839   0.019       0.575     0.042       0.626       4.089    3.687    4.522
+   Explanatory logit B (+Recency) logit (unpenalised)          12     0.881   0.019       0.634     0.043       0.680       4.443    4.005    4.855
+         T0 (demographics/tenure)            logit_L2           9     0.755   0.021       0.406     0.035       0.453       2.962    2.583    3.445
+         T0 (demographics/tenure)          grad_boost           9     0.737   0.025       0.416     0.047       0.483       3.155    2.725    3.592
+Scenario A (T0+T1 w/o Recency+T2)            logit_L2          26     0.858   0.019       0.595     0.038       0.670       4.378    3.953    4.804
+Scenario A (T0+T1 w/o Recency+T2)          grad_boost          26     0.852   0.018       0.560     0.034       0.635       4.153    3.746    4.617
+  Scenario B (all, incl. Recency)            logit_L2          27     0.894   0.018       0.642     0.035       0.704       4.604    4.180    5.046
+  Scenario B (all, incl. Recency)          grad_boost          27     0.897   0.016       0.648     0.040       0.675       4.411    4.023    4.874
+Best larger model (Scenario A): logit_L2, AUC 0.858 vs explanatory logit A 0.839. Model carried to Q4: explanatory logit A (one transparent model for explanation and targeting; the larger models rank only slightly better).
+
+FINAL SCORING MODEL (Scenario A, L2 logistic, C=1, standardized inputs) refit on all customers:
+            feature  std_coef  feature_mean  feature_sd
+        (intercept)    -2.470           NaN         NaN
+       TenureMonths     0.720        11.574       6.651
+             Single     0.551         0.358       0.480
+  NumStorePurchases    -0.544         5.787       3.241
+           Teenhome    -0.541         0.509       0.546
+       AcceptedCmp3     0.501         0.075       0.263
+       AcceptedCmp5     0.431         0.072       0.258
+    MntMeatProducts     0.400       167.775     226.780
+       AcceptedCmp1     0.380         0.065       0.247
+            Edu_PhD     0.373         0.218       0.413
+       AcceptedCmp4     0.260         0.077       0.266
+    NumWebPurchases     0.244         4.100       2.759
+       AcceptedCmp2     0.211         0.013       0.113
+  NumWebVisitsMonth     0.207         5.326       2.436
+          Edu_Basic    -0.199         0.024       0.154
+  NumDealsPurchases     0.188         2.337       1.934
+       MntGoldProds     0.174        43.610      51.399
+          MntFruits     0.138        26.229      39.695
+                Age     0.137        45.106      11.658
+           MntWines    -0.125       305.329     337.544
+         Edu_Master     0.118         0.256       0.436
+             Income     0.090     52027.213   21596.595
+    MntFishProducts    -0.088        37.328      54.589
+            Kidhome     0.080         0.444       0.536
+   MntSweetProducts    -0.044        27.181      41.528
+NumCatalogPurchases     0.018         2.669       2.936
+           Complain    -0.016         0.009       0.096
 
 [4] Permutation importance (drop in AUC when feature shuffled), Scenario A
                      logit_L2  grad_boost
@@ -111,12 +156,15 @@ MntSweetProducts      -0.0016      0.0048
 
 [S] Sensitivity — Scenario A predictive performance and explanatory ORs (model A)
                 sample    n                             model   AUC  PRAUC  top10_lift  OR_PrevAccepted  OR_Kidhome  OR_Teenhome  OR_TenureMonths  OR_logSpend  OR_C(Marital)[T.Single]  OR_C(Edu, Treatment('Graduation'))[T.PhD]
+       primary (dedup) 2026          explanatory logit A (CV) 0.839  0.575       4.089              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
        primary (dedup) 2026                          logit_L2 0.858  0.595       4.378              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
        primary (dedup) 2026                        grad_boost 0.852  0.560       4.153              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
        primary (dedup) 2026 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.047       1.756        0.422            1.113        1.341                    3.025                                      2.046
+      not deduplicated 2208          explanatory logit A (CV) 0.846  0.589       4.226              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
       not deduplicated 2208                          logit_L2 0.863  0.605       4.588              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
       not deduplicated 2208                        grad_boost 0.864  0.597       4.347              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
       not deduplicated 2208 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.142       1.838        0.419            1.119        1.380                    3.103                                      2.148
+dedup, flagged dropped 2019          explanatory logit A (CV) 0.838  0.577       4.063              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
 dedup, flagged dropped 2019                          logit_L2 0.865  0.609       4.449              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
 dedup, flagged dropped 2019                        grad_boost 0.856  0.569       4.127              NaN         NaN          NaN              NaN          NaN                      NaN                                        NaN
 dedup, flagged dropped 2019 explanatory logit A (odds ratios)   NaN    NaN         NaN            4.032       1.749        0.420            1.114        1.331                    3.011                                      2.056

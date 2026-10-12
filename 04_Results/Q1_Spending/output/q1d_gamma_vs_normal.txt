@@ -1,0 +1,3 @@
+Gamma dispersion phi = 0.403 (SD = 0.64 x mean); Normal residual SD = 285.7
+Across deciles of fitted mean: SD of spend grows as mean^0.67 (variance ~ mean^1.33; Normal assumes 0, Gamma 2)
+Ordinary regression on raw spend: 12.2% of fitted values negative (min -422)

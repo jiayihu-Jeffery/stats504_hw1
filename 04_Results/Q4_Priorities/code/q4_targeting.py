@@ -1,4 +1,4 @@
-"""Q4: prioritisation — spend tier x out-of-fold response propensity (Scenario A), budget table, conditional profit."""
+"""Q4: prioritisation — spend tier x out-of-fold response propensity (Q3 explanatory logit), budget table, conditional profit."""
 import sys
 from pathlib import Path
 ROOT = next(p for p in Path(__file__).resolve().parents if (p / "common").is_dir()); sys.path.insert(0, str(ROOT / "common"))
@@ -20,7 +20,7 @@ y = df.Response.values; base = y.mean()
 df["PropTier"] = pd.qcut(df.p_Q4, 3, labels=["Low", "Mid", "High"])
 PROD = dict(zip(MNT, ["Wine", "Fruit", "Meat", "Fish", "Sweets", "Gold"]))
 CHN = dict(zip(CHAN, ["Web", "Catalog", "Store"]))
-rep = [f"Q4 — n = {N}; propensity score = out-of-fold Scenario A logistic (q3_oof_predictions.csv: p_Q4)"]
+rep = [f"Q4 — n = {N}; propensity score = out-of-fold Q3 explanatory logit A (q3_oof_predictions.csv: p_Q4)"]
 
 def cell_summary(g):
     lo, hi = proportion_confint(g.Response.sum(), len(g), method="wilson")
@@ -60,7 +60,7 @@ for a, col, ttl, fmt in [(ax[0], "resp_rate", "Observed acceptance rate", "{:.0%
         for j in range(3):
             a.text(j, i, fmt.format(M.values[i, j]) + f"\nn={int(nM.values[i, j])}", ha="center", va="center",
                    color="white" if M.values[i, j] > np.nanmax(M.values) * .6 else "black", fontsize=9)
-fig.suptitle(f"Priority matrix (n = {N}; tenure-adjusted spend tertiles x Scenario A score tertiles)")
+fig.suptitle(f"Priority matrix (n = {N}; tenure-adjusted spend tertiles x Q3 score tertiles)")
 plt.tight_layout(); plt.savefig(FIG / "q4_priority_matrix.png", dpi=140); plt.close()
 
 # ---------- profiles (cells merged after inspecting the matrix) ----------
@@ -101,8 +101,8 @@ def budget(p, label):
                          response_rate=y[idx].mean(), rate_lo=np.percentile(bs_rate, 2.5), rate_hi=np.percentile(bs_rate, 97.5),
                          lift_vs_all=y[idx].mean() / base))
     return rows
-bud = pd.DataFrame(budget(df.p_Q4.values, "Scenario A (primary)") + budget(df.p_T0_logit_L2.values, "T0 only (new customers)")
-                   + budget(df.p_B_logit_L2.values, "Scenario B (needs client confirmation)"))
+bud = pd.DataFrame(budget(df.p_Q4.values, "Explanatory logit A (primary)") + budget(df.p_T0_logit_L2.values, "T0 only (new customers)")
+                   + budget(df.p_expl_B.values, "Explanatory logit B, +recency (needs client confirmation)"))
 bud.to_csv(OUT / "q4_budget_table.csv", index=False)
 rep += [f"\n[2] Budget table (contact top x% by out-of-fold score; overall rate {base:.3f}; 95% bootstrap CIs)",
         bud.round(3).to_string(index=False)]
@@ -113,7 +113,7 @@ COST, REV = 3, 11
 fr = np.arange(1, N + 1) / N
 fig, a = plt.subplots(figsize=(7.5, 4.6))
 prof_rows = []
-for col, lab in [("p_Q4", "Scenario A score"), ("p_T0_logit_L2", "T0-only score")]:
+for col, lab in [("p_Q4", "Explanatory logit A score"), ("p_T0_logit_L2", "T0-only score")]:
     o = np.argsort(-df[col].values); cumacc = np.cumsum(y[o]); profit = REV * cumacc - COST * np.arange(1, N + 1)
     a.plot(100 * fr, profit, label=lab)
     k = profit.argmax(); prof_rows.append(dict(score=lab, best_contact_pct=100 * fr[k], best_profit=profit[k],
@@ -126,4 +126,15 @@ rep += [f"\n[3] CONDITIONAL profit (assumes cost {COST}/contact, revenue {REV}/a
         "In-sample out-of-fold scores; not validated on a future campaign.", prof.round(3).to_string(index=False)]
 
 df[["ID", "SpendTier", "SpendTierAdj", "PropTier", "Profile", "Profile_unadj", "p_Q4", "Segment"]].to_csv(OUT / "q4_customer_tiers.csv", index=False)
+
+# ---------- who the priority customers are: each profile's traits vs all customers (report: "Who the P1 customers are") ----------
+def traits(d):
+    deal = (d.NumDealsPurchases / d.TotalPurch.replace(0, np.nan)).clip(upper=1)
+    return pd.Series({"n": len(d), "pct_accepted_earlier_campaign": 100 * (d.PrevAccepted > 0).mean(),
+                      "mean_income": d.Income.mean(), "pct_no_young_children": 100 * (d.Kidhome == 0).mean(),
+                      "pct_no_teenagers": 100 * (d.Teenhome == 0).mean(), "mean_tenure_months": d.TenureMonths.mean(),
+                      "pct_single": 100 * (d.Marital == "Single").mean(), "mean_discount_share_pct": 100 * deal.mean()})
+tr = pd.concat({**{p: traits(g) for p, g in df.groupby("Profile")}, "All customers": traits(df)}, axis=1)
+tr.round(2).to_csv(OUT / "q4_profile_traits.csv")
+rep += ["\n[4] Profile traits vs all customers", tr.round(1).to_string()]
 txt = "\n".join(rep); print(txt); (OUT / "q4_results.txt").write_text(txt + "\n")

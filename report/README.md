@@ -1,20 +1,18 @@
-# report/: deliverables
+# report/: final deliverable
 
 | File | Content |
 |---|---|
-| `two_page_summary.pdf` | **Final deliverable**: two-page consultant team summary, covering dataset, goals and questions, methods, results (with 2 figures), challenges and limitations. |
-| `two_page_summary.md` / `.html` | Source and rendered version of the summary. |
-| `report.pdf` | Full consultant report (revision 2, after client review): executive summary, profile cards, scorecards, appendices A–E. |
-| `report.md` / `.html` | Source and rendered version of the full report. |
-| `archive/report_v1.md` | First version of the full report, before the client review. |
-| `code/summary_figures.py` | Builds `figures/summary_fig1.png` and `summary_fig2.png` from the section outputs (palette: validated categorical slots 1–3). |
-| `code/build_summary.py`, `code/build_report.py` | Render the Markdown to self-contained HTML with images embedded. |
-| `output/summary_fig_spend_by_income_kids.csv` | Data for Figure 1B. |
+| `final_report.pdf` | **Final two-page consultant report**: dataset, goals and questions, methods, results (2 figures, 2 tables), challenges, limitations. |
+| `latex/main.tex` | LaTeX source. It compiles with pdfLaTeX (Overleaf) or Tectonic. Layout knobs (`\BodySize`, `\BodySkip`, `\FigWidth`, `\FigOneWidth`) are at the top. |
+| `latex/figures/summary_fig1.pdf`, `summary_fig2.pdf` | Vector figures used by the LaTeX source. |
+| `code/summary_figures.py` | Builds `figures/summary_fig1.*` (income curve, Shapley shares, spend by income and kids, shopping styles) and `figures/summary_fig2.*` (past response, profiles, targeting curve). It reads the section outputs. |
+| `output/summary_fig_spend_by_income_kids.csv` | Data for Figure 1C. |
 
 **Rebuild:**
 
 1. Run `python run_all.py` from the repository root.
-2. Open each `.html` file in a browser and print it to PDF (Letter, no headers or footers).
-3. Check that the summary is still two pages.
+2. Copy `figures/summary_fig*.pdf` into `latex/figures/`.
+3. Compile `latex/main.tex`.
+4. Check that the report is still two pages.
 
-Every number in both documents comes from the `output/` folder of the section that produced it. Appendix D of the full report maps each table and figure to its source file.
+The root [`README.md`](../README.md) maps every number in the report to the output file that produced it.

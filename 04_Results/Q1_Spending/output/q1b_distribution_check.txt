@@ -1,0 +1,6 @@
+n = 2026; spend min = 5, median = 396, mean = 607, skewness = 0.86
+Same mean structure; AIC on the spend scale (lower = better):
+               distribution   loglik     AIC  delta_AIC_vs_best
+           Gamma (log link) -13430.4 26888.8                0.0
+        Lognormal (log-OLS) -13488.2 27004.4              115.6
+Inverse Gaussian (log link) -14566.0 29159.9             2271.1

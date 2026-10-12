@@ -89,7 +89,7 @@ for rname, m in RULES.items():
                           model_A_capture_same_volume_pct=100 * capA))
 rules = pd.DataFrame(rule_rows); rules.to_csv(OUT / "q4b_rules.csv", index=False)
 rep += ["\n[1c] Simple rules (pre-specified from Q3 findings on the SAME data -> some optimism). "
-        "Compared with contacting the same number of customers ranked by the Scenario A model score.",
+        "Compared with contacting the same number of customers ranked by the Q3 explanatory model score.",
         rules.round(3).to_string(index=False)]
 
 # data-driven rule cross-check: depth-3 tree, cross-validated
@@ -116,7 +116,7 @@ for lab, m in [("joined in last 6 months", new), ("joined 6+ months ago", ~new)]
 nc = pd.DataFrame(rows)
 g = df[new]
 within = []
-for col, lab in [("p_Q4", "Scenario A model"), ("p_T0_logit_L2", "T0 model"), ("score_A", "Scorecard A"), ("score_N", "Scorecard N")]:
+for col, lab in [("p_Q4", "Q3 explanatory model"), ("p_T0_logit_L2", "T0 model"), ("score_A", "Scorecard A"), ("score_N", "Scorecard N")]:
     within.append(dict(score=lab, AUC_within_new=roc_auc_score(g.Response, g[col]),
                        top20pct_of_new_capture=100 * capture(g.Response.values, g[col].values, .2, rng)[0],
                        top20pct_of_new_rate=capture(g.Response.values, g[col].values, .2, rng)[1]))

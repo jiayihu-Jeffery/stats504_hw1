@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 .claude/
+report/latex/build/
+*.aux
+*.log

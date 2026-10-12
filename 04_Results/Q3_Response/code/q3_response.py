@@ -68,8 +68,11 @@ df["Recency10"] = df.Recency / 10
 fA = ("Response ~ logInc + Age10 + Kidhome + Teenhome + TenureMonths + C(Edu, Treatment('Graduation')) "
       "+ C(Marital) + logSpend + PrevAccepted")
 out = []
-for lab, f in [("A", fA), ("B", fA + " + Recency10")]:
+fA0 = fA.replace(" + logSpend", "")   # sensitivity: drop spend (a possibly campaign-affected T1 variable)
+for lab, f in [("A", fA), ("B", fA + " + Recency10"), ("A0_no_spend", fA0)]:
     m = smf.logit(f, df).fit(disp=0, cov_type="HC1")
+    if lab == "A":   # full coefficient table (log-odds scale) of the explanatory model
+        pd.DataFrame({"coef": m.params, "se": m.bse, "z": m.tvalues, "p": m.pvalues}).round(4).to_csv(OUT / "q3_logit_A_coefficients.csv")
     me = m.get_margeff(at="overall").summary_frame()
     ci = m.conf_int()
     t = pd.DataFrame({"OR": np.exp(m.params), "OR_lo": np.exp(ci[0]), "OR_hi": np.exp(ci[1]), "p": m.pvalues}).drop("Intercept")
@@ -95,8 +98,25 @@ def run_cv(d, feats, mk, n_rep=5, seed=SEED):
 def topk(yy, p, frac):
     k = int(round(frac * len(yy))); idx = np.argsort(-p)[:k]; return yy[idx].mean()
 
+def run_cv_formula(d, f, n_rep=5, seed=SEED):
+    yy = d.Response.values; oof = np.zeros((n_rep, len(d))); aucs, aps = [], []
+    for i, (tr, te) in enumerate(RepeatedStratifiedKFold(n_splits=5, n_repeats=n_rep, random_state=seed).split(d, yy)):
+        m = smf.logit(f, d.iloc[tr]).fit(disp=0); p = m.predict(d.iloc[te]).values
+        oof[i // 5, te] = p; aucs.append(roc_auc_score(yy[te], p)); aps.append(average_precision_score(yy[te], p))
+    return oof.mean(0), np.array(aucs), np.array(aps)
+
 rng = np.random.default_rng(SEED)
 res, oofs = [], {}
+# explanatory logits (pre-specified 11 terms; B adds recency) scored out-of-fold: model A is carried to Q4
+EXPL = {"Explanatory logit A (11 terms)": fA, "Explanatory logit B (+Recency)": fA + " + Recency10"}
+for ename, f in EXPL.items():
+    p, aucs, aps = run_cv_formula(df, f)
+    oofs[(ename, "logit")] = p; top = topk(y, p, .1); bs = []
+    for _ in range(1000):
+        ix = rng.integers(0, N, N); bs.append(topk(y[ix], p[ix], .1) / y[ix].mean())
+    res.append(dict(features=ename, model="logit (unpenalised)", n_features=11 + ("Recency" in ename),
+                    AUC_mean=aucs.mean(), AUC_sd=aucs.std(), PRAUC_mean=aps.mean(), PRAUC_sd=aps.std(),
+                    top10_rate=top, top10_lift=top / base, lift_lo=np.percentile(bs, 2.5), lift_hi=np.percentile(bs, 97.5)))
 for sname, feats in SETS.items():
     for mname, mk in MODELS.items():
         p, aucs, aps = run_cv(df, feats, mk)
@@ -117,17 +137,32 @@ rep += [f"\n[3] Predictive performance, 5x5 repeated stratified CV (base rate {b
 A = "Scenario A (T0+T1 w/o Recency+T2)"
 ra = res[res.features == A].set_index("model")
 chosen = "grad_boost" if ra.loc["grad_boost", "AUC_mean"] - ra.loc["logit_L2", "AUC_mean"] > 0.01 else "logit_L2"
-rep += [f"Model carried to Q4: Scenario A, {chosen} (rule: logistic unless boosting AUC higher by > 0.01)"]
+EA = "Explanatory logit A (11 terms)"
+rep += [f"Best larger model (Scenario A): {chosen}, AUC {ra.loc[chosen, 'AUC_mean']:.3f} vs explanatory logit A "
+        f"{res.loc[res.features == EA, 'AUC_mean'].iloc[0]:.3f}. Model carried to Q4: explanatory logit A "
+        "(one transparent model for explanation and targeting; the larger models rank only slightly better)."]
 o = pd.DataFrame({"ID": df.ID, "Response": y})
 for (s, m), p in oofs.items():
+    if s.startswith("Explanatory"): o["p_expl_" + ("A" if " A " in s else "B")] = p; continue
     o[f"p_{'T0' if s.startswith('T0') else s.split()[1]}_{m}"] = p
-o["p_Q4"] = oofs[(A, chosen)]
+o["p_Q4"] = oofs[(EA, "logit")]
 o.to_csv(OUT / "q3_oof_predictions.csv", index=False)
+# FINAL SCORING MODEL refit on all customers (the version that would score future customers):
+# standardized L2-logistic coefficients; the model's input is (x - feature_mean) / feature_sd
+pipe = MODELS["logit_L2"]().fit(df[SETS[A]].values, y)
+coefA = pd.DataFrame({"feature": ["(intercept)"] + SETS[A], "std_coef": [pipe[-1].intercept_[0]] + list(pipe[-1].coef_[0]),
+                      "feature_mean": [np.nan] + list(pipe[0].mean_), "feature_sd": [np.nan] + list(pipe[0].scale_)})
+coefA["abs"] = coefA.std_coef.abs(); coefA.loc[0, "abs"] = np.inf
+coefA = coefA.sort_values("abs", ascending=False).drop(columns="abs")
+coefA.round(4).to_csv(OUT / "q3_scoring_model_coefficients.csv", index=False)
+rep += ["\nFINAL SCORING MODEL (Scenario A, L2 logistic, C=1, standardized inputs) refit on all customers:", coefA.round(3).to_string(index=False)]
 
 # calibration + gains
 fig, ax = plt.subplots(1, 2, figsize=(12, 4.8))
 for (s, m), p in oofs.items():
-    if m != chosen and not s.startswith("Scenario A"): continue
+    if s.startswith("Explanatory"):
+        if s != EA: continue
+    elif m != chosen and not s.startswith("Scenario A"): continue
     lab = f"{'T0' if s.startswith('T0') else s.split()[0] + ' ' + s.split()[1]}, {m}"
     fr, mp = calibration_curve(y, p, n_bins=10, strategy="quantile")
     ax[0].plot(mp, fr, "o-", ms=3, label=lab)
@@ -161,6 +196,10 @@ a.legend(); plt.tight_layout(); plt.savefig(FIG / "q3_permutation_importance.png
 sens = []
 for lab, kw in [("primary (dedup)", {}), ("not deduplicated", dict(dedup=False)), ("dedup, flagged dropped", dict(drop_flagged=True))]:
     d = prep(load(**kw))
+    dd = d.assign(logInc=np.log(d.Income), logSpend=np.log(d.TotalSpend), Age10=d.Age / 10)
+    p, aucs, aps = run_cv_formula(dd, fA)
+    sens.append(dict(sample=lab, n=len(d), model="explanatory logit A (CV)", AUC=aucs.mean(), PRAUC=aps.mean(),
+                     top10_lift=topk(d.Response.values, p, .1) / d.Response.mean()))
     for m, mk in MODELS.items():
         p, aucs, aps = run_cv(d, SETS[A], mk, n_rep=5)
         yy = d.Response.values

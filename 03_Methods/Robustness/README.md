@@ -1,8 +1,8 @@
 # 03 Methods → Robustness
 
-*Report: the Methods "Robustness" bullet, the Q4 footnote, and Appendix A*
+*Report: the footnote under the Q4 table ("Changing the cleaning choices moves no profile share by more than 1.3 points").*
 
-Every headline result was re-run on three samples:
+Headline results were re-run on three samples:
 
 1. the primary deduplicated sample (n = 2,026);
 2. duplicates kept (n = 2,208);
@@ -10,7 +10,7 @@ Every headline result was re-run on three samples:
 
 | Script | What it re-runs | Output |
 |---|---|---|
-| `code/q4c_sensitivity.py` | The full Q4 pipeline on each sample: out-of-fold Scenario A score → tenure-adjusted tiers → profiles → Scorecard A/N cross-validation | `output/q4c_profile_sensitivity.csv`, `output/q4c_tool_sensitivity.csv`, `output/q4c_results.txt` |
+| `code/q4c_sensitivity.py` | The full Q4 pipeline on each sample: out-of-fold Q3 score → tenure-adjusted tiers → profiles. The supplementary scorecards are also re-run. | `output/q4c_profile_sensitivity.csv`, `output/q4c_tool_sensitivity.csv`, `output/q4c_results.txt` |
 
 The Q1 and Q3 sensitivity re-runs are built into their own scripts:
 
@@ -19,6 +19,12 @@ The Q1 and Q3 sensitivity re-runs are built into their own scripts:
 
 ## Results
 
-- **Q1.** The young-child effect is −38.5% / −37.5% / −36.9% under the spline model on the three samples. Teenager and tenure effects are equally stable.
-- **Q3.** Scenario A logistic AUC is 0.858 / 0.863 / 0.865. The odds ratio for earlier acceptance is 4.05 / 4.14 / 4.03.
-- **Q4.** No profile's share of customers, acceptors or spending moves by more than 1.3 percentage points. Model capture at 20% contact is 63.9–64.7%. Scorecard A capture is 60.1–60.9%. Scorecard N AUC is 0.755–0.757.
+The three numbers in each line are for the primary, duplicates-kept and flagged-dropped samples.
+
+- **Q1:** the young-child effect is −38.5% / −37.5% / −36.9%. Teenager and tenure effects are equally stable.
+- **Q3:**
+  - out-of-fold AUC of the model is 0.839 / 0.846 / 0.838;
+  - the odds ratio for earlier acceptance is 4.05 / 4.14 / 4.03.
+- **Q4:**
+  - no profile's share of customers, acceptance, share of acceptors or share of spending moves by more than 1.3 points (max 1.29);
+  - capture at 20% contact is 59.7% / 61.6% / 59.4%.

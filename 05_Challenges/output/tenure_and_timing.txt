@@ -12,11 +12,11 @@ Adjusted association (Q1 Gamma GLM): +4.3% spend per month of tenure
 Effect of tenure-adjusting value tiers on Q4 profiles (rows = raw spend, cols = tenure-adjusted):
                                P1 Engaged high-value  P2 Responsive, lower-spend  P3 High-value, low-propensity  P4 Low priority for campaigns   All
 Profile_unadj                                                                                                                                       
-P1 Engaged high-value                            314                          23                              0                              0   337
-P2 Responsive, lower-spend                         8                         330                              0                              0   338
-P3 High-value, low-propensity                      0                           0                            297                             39   336
-P4 Low priority for campaigns                      0                           0                             57                            958  1015
-All                                              322                         353                            354                            997  2026
+P1 Engaged high-value                            329                          29                              0                              0   358
+P2 Responsive, lower-spend                        10                         307                              0                              0   317
+P3 High-value, low-propensity                      0                           0                            282                             33   315
+P4 Low priority for campaigns                      0                           0                             55                            981  1036
+All                                              339                         336                            337                           1014  2026
 
 == (2) Undocumented timing of behaviour fields (recency) ==
   variable level   n  acceptors  rate    lo    hi
@@ -25,11 +25,13 @@ RecencyBin 25-49 508         77 0.152 0.123 0.185
 RecencyBin 50-74 509         58 0.114 0.089 0.144
 RecencyBin 75-99 494         36 0.073 0.053 0.099
 Scenario A (no recency) vs Scenario B (with recency):
-                         features      model  AUC_mean  top10_rate
-         T0 (demographics/tenure)   logit_L2     0.755       0.453
-         T0 (demographics/tenure) grad_boost     0.737       0.483
-Scenario A (T0+T1 w/o Recency+T2)   logit_L2     0.858       0.670
-Scenario A (T0+T1 w/o Recency+T2) grad_boost     0.852       0.635
-  Scenario B (all, incl. Recency)   logit_L2     0.894       0.704
-  Scenario B (all, incl. Recency) grad_boost     0.897       0.675
+                         features               model  AUC_mean  top10_rate
+   Explanatory logit A (11 terms) logit (unpenalised)     0.839       0.626
+   Explanatory logit B (+Recency) logit (unpenalised)     0.881       0.680
+         T0 (demographics/tenure)            logit_L2     0.755       0.453
+         T0 (demographics/tenure)          grad_boost     0.737       0.483
+Scenario A (T0+T1 w/o Recency+T2)            logit_L2     0.858       0.670
+Scenario A (T0+T1 w/o Recency+T2)          grad_boost     0.852       0.635
+  Scenario B (all, incl. Recency)            logit_L2     0.894       0.704
+  Scenario B (all, incl. Recency)          grad_boost     0.897       0.675
 Recency is kept out of all recommendations until the client confirms it was recorded before the campaign.

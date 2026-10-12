@@ -17,14 +17,6 @@ The client also expects the report to:
 - separate descriptive relationships from conclusions that can support decisions;
 - state the data limitations.
 
-## How we operationalised "descriptive vs decision-ready"
-
-Every finding carries one of three labels:
-
-- **[Descriptive]:** a pattern in the data.
-- **[Robust association]:** holds after adjustment and across the sensitivity samples.
-- **[Decision-ready]:** robust, uses only information available before a campaign, and validated on held-out customers.
-
 ## Files
 
 | File | Content |

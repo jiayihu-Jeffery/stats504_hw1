@@ -94,6 +94,21 @@ rep += ["\n[2-5] % difference in MEAN spend (Gamma) / GEOMETRIC-MEAN spend (log-
 # spline-in-income Gamma GLM (functional-form check; household coefficients reported alongside)
 RHS_SPL = "bs(logInc, df=4) + " + RHS.replace("logInc + ", "")
 gspl = fit_gamma(RHS_SPL, df)
+# FINAL Q1 MODEL: full coefficient table on the log scale, plus the fitted income curve
+# (multiplier on mean spend relative to median income; other covariates at reference values)
+ci_s = gspl.conf_int()
+coef_final = pd.DataFrame({"coef": gspl.params, "se": gspl.bse, "lo": ci_s[0], "hi": ci_s[1], "p": gspl.pvalues})
+coef_final.round(4).to_csv(OUT / "q1_final_model_coefficients.csv")
+ref = dict(Kidhome=0, Teenhome=0, Age10=df.Age10.median(), Edu="Graduation", Marital="Partnered", TenureMonths=df.TenureMonths.median())
+inc_pts = [20000, 35000, float(df.Income.median()), 65000, 80000, 90000]
+mu = gspl.predict(pd.DataFrame([dict(ref, Income=v, logInc=np.log(v)) for v in inc_pts]))
+curve = pd.DataFrame({"income": inc_pts, "predicted_mean_spend_at_reference": np.asarray(mu),
+                      "multiplier_vs_median_income": np.asarray(mu) / np.asarray(mu)[2]})
+curve.round(4).to_csv(OUT / "q1_final_model_income_curve.csv", index=False)
+rep += [f"\nFINAL MODEL: Gamma GLM, log link, B-spline (df=4) in log income, HC3 SEs; dispersion phi = {gspl.scale:.4f}; "
+        f"deviance = {gspl.deviance:.1f}; null deviance = {gspl.null_deviance:.1f}",
+        coef_final.round(4).to_string(), "Fitted income curve (reference: no children, median age/tenure, Graduation, Partnered):",
+        curve.round(3).to_string(index=False)]
 tsp = pct_table(gspl, "Gamma spline")
 adj["gspline_pct"] = adj.term.map(pd.Series(tsp.coef_pct.values, index=[nice(i) for i in tsp.index])).round(1)
 adj["gspline_lo"] = adj.term.map(pd.Series(tsp.lo_pct.values, index=[nice(i) for i in tsp.index])).round(1)
@@ -134,6 +149,31 @@ fig, a = plt.subplots(figsize=(7, 3.8))
 a.barh(sh.index[::-1], 100 * sh.values[::-1] / sh.sum(), color="#3B6EA5")
 a.set(xlabel="Share of explained variance in log(spend), %", title=f"Relative importance (Shapley R², total R² = {sh.sum():.2f}; n = {N})")
 plt.tight_layout(); plt.savefig(FIG / "q1_shapley.png", dpi=140); plt.close()
+
+# Shapley decomposition of explained DEVIANCE in the FINAL model (spline Gamma GLM), so the importance
+# ranking uses the same model as the reported effects: R2_dev(S) = 1 - deviance(S) / null deviance
+groups_g = dict(groups, Income="bs(logInc, df=4)")
+cache_g = {}
+def r2dev(S):
+    S = tuple(sorted(S))
+    if S not in cache_g:
+        if not S: cache_g[S] = 0.0
+        else:
+            m_ = fit_gamma(" + ".join(groups_g[x] for x in S), df, cov_type="nonrobust")
+            cache_g[S] = 1 - m_.deviance / m_.null_deviance
+    return cache_g[S]
+shap_g = {}
+for v in names:
+    others = [n for n in names if n != v]; tot = 0
+    for r in range(k):
+        for S in itertools.combinations(others, r):
+            tot += factorial(r) * factorial(k - r - 1) / factorial(k) * (r2dev(S + (v,)) - r2dev(S))
+    shap_g[v] = tot
+shg = pd.Series(shap_g).sort_values(ascending=False)
+shgdf = pd.DataFrame({"shapley_dev_R2": shg.round(4), "share_of_explained_deviance_pct": (100 * shg / shg.sum()).round(1)})
+shgdf.to_csv(OUT / "q1_shapley_gamma_deviance.csv")
+rep += [f"\n[6b] Shapley decomposition of explained deviance, FINAL spline Gamma GLM (total deviance R2 = {shg.sum():.3f})",
+        shgdf.to_string()]
 
 # ---------- 7. diagnostics ----------
 fam = sm.families.Gamma(sm.families.links.Log())

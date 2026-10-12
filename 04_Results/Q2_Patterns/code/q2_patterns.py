@@ -92,6 +92,22 @@ aris = np.array(aris)
 rep += [f"Bootstrap stability (100 resamples): ARI mean = {aris.mean():.3f}, 5th-95th pct = "
         f"[{np.percentile(aris, 5):.3f}, {np.percentile(aris, 95):.3f}]"]
 
+# Feature-weighting sensitivity: product shares (6 columns, summing to 1) get twice the weight of channel shares
+# (3 columns) in plain standardized K-means. Re-cluster with each block (products, channels, deal ratio, web visits)
+# carrying equal total weight and compare partitions.
+blk_w = np.array([1 / np.sqrt(len(SH))] * len(SH) + [1 / np.sqrt(len(CH))] * len(CH) + [1.0, 1.0])
+km_w = KMeans(K, n_init=50, random_state=SEED).fit(X * blk_w)
+ari_w = adjusted_rand_score(raw, km_w.labels_)
+sil_main = silhouette_score(X, raw, random_state=SEED, sample_size=len(X))
+xt_w = pd.crosstab(cl.Segment, km_w.labels_)
+recov = (xt_w.max(axis=1) / xt_w.sum(axis=1))          # share of each segment that stays together under equal weights
+xt_w.to_csv(OUT / "q2_weighting_crosstab.csv")
+pd.DataFrame([dict(check="equal block weights vs standard", ARI=ari_w, silhouette_standard=sil_main,
+                   **{f"{sg}_kept_together": recov[sg] for sg in recov.index})]).round(3).to_csv(OUT / "q2_weighting_sensitivity.csv", index=False)
+rep += [f"Block-weighting sensitivity (products/channels/deal/visits equally weighted): ARI vs main partition = {ari_w:.3f}; "
+        f"silhouette of main partition = {sil_main:.3f} (clusters overlap; read as tendencies). Share of each segment kept "
+        f"together under equal weights: " + ", ".join(f"{sg} {100 * recov[sg]:.0f}%" for sg in recov.index), xt_w.to_string()]
+
 # ---------- 3. profiles ----------
 prof_vars = FEATS + ["TotalSpend", "AvgTicket", "TotalPurch", "Recency", "Income", "Age", "Kidhome", "Teenhome",
                      "Children", "TenureMonths", "Response", "PrevAccepted"]

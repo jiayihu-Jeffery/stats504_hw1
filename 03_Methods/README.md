@@ -1,25 +1,28 @@
 # 03 Methods
 
-*Report section: **Methods***
+*Report section: **Methods (final models)***. The code for each method sits with its results under `04_Results/Q*/code/`. This folder summarises the design. [`Robustness/`](Robustness) holds the Q4 sensitivity re-runs.
 
-The code for each method sits with the result it produces, under `04_Results/Q*/code/`. This folder summarises the design. Its subfolder [`Robustness/`](Robustness) holds the sensitivity re-runs.
-
-| Question | Method | Why |
+| Question | Final method in the report | Why |
 |---|---|---|
-| Q1 Spending | Gamma GLM (log link) with HC3 standard errors. Income enters as a B-spline. Log-OLS as a robustness check. Shapley R² decomposition for relative importance. | Models *mean* spend (revenue). Income is strongly non-linear. Shapley shares explained variance fairly among correlated predictors. |
-| Q2 Patterns | Product and channel mixes by group. K-means (k chosen from 3–5 by silhouette and minimum size; bootstrap ARI for stability) on composition features only. Product preference index. | Segments describe *how* customers shop rather than restating spend (Q1). |
-| Q3 Response | Wilson CIs. Pre-specified logistic regression reported as odds ratios and average marginal effects. L2 logistic vs gradient boosting under 5×5 repeated stratified CV (ROC-AUC, PR-AUC, top-decile lift with bootstrap CIs, calibration, gains). Permutation importance. | Explanation and targeting need different tools. Out-of-sample metrics guard against over-fitting. |
-| Q4 Priorities | Tenure-adjusted value tier × tertile of out-of-fold predicted acceptance → four profiles. Integer-points scorecards. Simple rules. Budget table. Conditional profit curve. | Combines value, style and responsiveness. Out-of-fold scores avoid optimistic profiles. |
+| Q1 Spending | Gamma regression (log link) with HC3 SEs. Income enters as a 4-df B-spline in log income. Importance comes from a Shapley decomposition of explained deviance. | Spending is positive and skewed, and its spread grows with the mean; Gamma fitted best by AIC. The model targets *average* spending. Income is strongly non-linear. Shapley splits importance fairly among correlated predictors. |
+| Q2 Patterns | k-means (k = 3 by silhouette, 50 starts) on 11 standardised style measures: product shares, channel shares, discount share, web visits. Bootstrap ARI checks stability and an equal-weight re-run checks weighting. | Groups describe *how* customers shop rather than restating spending (Q1). |
+| Q3 Response | One pre-specified logistic regression (HC1 SEs, average marginal effects). It is scored out of fold under 5×5 repeated stratified CV. | Fixed variables avoid inflated significance. Larger 26-field models were only slightly better on unseen customers (0.858 / 0.852 vs 0.839), so one transparent model explains and scores. |
+| Q4 Priorities | Tenure-adjusted value (spending percentile within 6-month joining cohorts) × the out-of-fold Q3 score, each split at its top third, gives P1–P4. Profile traits are compared with all customers. | A target should both respond and spend. Out-of-fold scores avoid optimistic profiles. Tenure adjustment avoids undervaluing new customers. |
 
-**Variable availability tiers.** Variables are grouped by whether they are known when a campaign is sent:
+**Data timing.** Variables are grouped by whether they are known when a campaign is sent:
 
-- **T0, always known:** demographics and tenure.
-- **T1, known only if recorded before the campaign:** spending, purchases, web visits, complaints.
-- **T2, known if earlier campaigns came first:** campaigns 1–5.
+- **T0:** demographics and tenure (always known).
+- **T1:** spending, purchases, web visits, complaints (known only if recorded before the campaign).
+- **T2:** earlier campaigns 1–5.
 
-Accepting the last campaign may itself have changed recency, so we use two scenarios:
+Accepting the last campaign may itself change recency (days since the last purchase), so recency is left out of every recommendation. It appears only in sensitivity checks (Q3 model B).
 
-- **Scenario A (primary):** T0 + T2 + T1 without recency.
-- **Scenario B:** everything, including recency. Valid only after the client confirms the data timing.
+**Sensitivity samples:**
 
-**Seed:** 503 throughout.
+- primary deduplicated (n = 2,026);
+- duplicates kept (2,208);
+- 7 flagged high incomes dropped (2,019).
+
+See [`Robustness/`](Robustness).
+
+**Seed:** 503 throughout (`common/paths.py`).

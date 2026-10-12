@@ -1,0 +1,54 @@
+Q3b — overfitting and coefficient-overlap checks; n = 2026, acceptors = 310
+
+[1] Explanatory logit: nested models (unpenalised; 5x5 repeated stratified CV)
+                           model  params  events_per_param      AIC  AUC_in_sample  AUC_cv  AUC_cv_sd  optimism
+            1 term: PrevAccepted       2           155.000 1467.525          0.718   0.718      0.025     0.000
+4 terms: + Single, Teens, Tenure       5            62.000 1293.624          0.829   0.827      0.024     0.002
+  7 terms: + PhD, Kids, logSpend       8            38.750 1270.147          0.842   0.838      0.019     0.004
+    11 terms: model A (reported)      12            25.833 1270.054          0.846   0.839      0.019     0.007
+Rule of thumb: >= 10-20 events per parameter keeps logistic coefficients stable.
+
+[2] Variance inflation factors, model A terms (5-10+ would signal problematic overlap)
+logInc          2.70
+Age10           1.26
+Kidhome         1.68
+Teenhome        1.22
+TenureMonths    1.14
+Edu_Basic       1.13
+Edu_Master      1.13
+Edu_PhD         1.14
+Single          1.00
+logSpend        3.37
+PrevAccepted    1.18
+Correlations among education dummies and other terms
+            Edu_Master  Edu_PhD  Edu_Basic  Age10  logInc  logSpend  Single  Kidhome  Teenhome
+Edu_Master        1.00    -0.31      -0.09  -0.01   -0.02     -0.02   -0.03     0.02     -0.02
+Edu_PhD          -0.31     1.00      -0.08   0.12    0.11      0.05    0.00    -0.04      0.10
+
+[3] Education: raw acceptance rates
+               n   rate
+Edu                    
+Basic         49  0.041
+Graduation  1017  0.139
+Master       518  0.145
+PhD          442  0.208
+Model A odds ratios vs Graduation
+               OR      p
+Edu_Basic   0.232  0.068
+Edu_Master  1.099  0.603
+Edu_PhD     2.046  0.000
+Wald test PhD = Master (log-odds diff 0.622, HC1): p = 0.0023
+Merged 'Postgrad' (Master+PhD) model: OR = 1.482; LR test vs separate dummies: chi2 = 9.21, df = 1, p = 0.0024; AIC separate 1270.1 vs merged 1277.3 vs no education 1286.7
+Bootstrap (500): OR Master median 1.10 [0.80, 1.56]; OR PhD median 2.03 [1.45, 2.84]; PhD > Master in 99% of resamples; bootstrap corr(log OR Master, log OR PhD) = 0.31
+
+[4] Scoring model: CV AUC by number of inputs (ranked by permutation importance; ranking uses all data, so small k is slightly flattered) and by penalty C (smaller = stronger shrinkage; 1e4 ~ unpenalised)
+ inputs        C  AUC_cv
+      5     1.00  0.7722
+      9     1.00  0.8444
+     15     1.00  0.8606
+     20     1.00  0.8605
+     26     1.00  0.8580
+     26     0.01  0.8558
+     26     0.10  0.8589
+     26    10.00  0.8578
+     26 10000.00  0.8578

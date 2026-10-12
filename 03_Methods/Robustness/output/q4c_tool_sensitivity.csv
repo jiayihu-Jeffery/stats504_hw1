@@ -1,4 +1,4 @@
 sample,n,model_AUC,model_top20_capture,model_top30_capture,scorecardA_AUC,scorecardA_top20_capture,scorecardN_AUC,scorecardN_top20_capture
-primary (dedup),2026,0.8586,63.871,76.129,0.8315,60.129,0.7558,47.0968
-duplicates kept,2208,0.863,64.6526,77.6435,0.8354,60.948,0.7573,48.2587
-flagged high-income dropped,2019,0.865,63.871,78.0645,0.8306,60.129,0.755,47.7419
+primary (dedup),2026,0.8388,59.6774,74.1935,0.8315,60.129,0.7558,47.0968
+duplicates kept,2208,0.8451,61.6314,76.435,0.8354,60.948,0.7573,48.2587
+flagged high-income dropped,2019,0.8376,59.3548,74.5161,0.8306,60.129,0.755,47.7419

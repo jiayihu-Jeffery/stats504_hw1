@@ -1,0 +1,5 @@
+holdout_share,holdout_n_in_P1P2,mde_pp_in_P1P2,total_needed_for_5pp,total_needed_for_10pp,holdout_needed_for_10pp,total_needed_for_15pp
+0.1,68,17.3,8037,2009,201,893
+0.15,101,14.5,5673,1418,213,630
+0.2,135,12.9,4521,1130,226,502
+0.5,338,10.4,2893,723,362,321

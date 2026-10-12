@@ -1,0 +1,5 @@
+model,params,events_per_param,AIC,AUC_in_sample,AUC_cv,AUC_cv_sd,optimism
+1 term: PrevAccepted,2,155.0,1467.5245,0.7181,0.7181,0.0251,0.0
+"4 terms: + Single, Teens, Tenure",5,62.0,1293.6243,0.8291,0.8274,0.0237,0.0017
+"7 terms: + PhD, Kids, logSpend",8,38.75,1270.1469,0.8422,0.8383,0.0191,0.0039
+11 terms: model A (reported),12,25.8333,1270.0536,0.8459,0.8388,0.0194,0.0071

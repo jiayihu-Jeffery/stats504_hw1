@@ -1,0 +1,8 @@
+P1+P2: N = 675, observed acceptance p = 0.360; alpha = 0.05 (two-sided), power = 0.80
+ holdout_share  holdout_n_in_P1P2  mde_pp_in_P1P2  total_needed_for_5pp  total_needed_for_10pp  holdout_needed_for_10pp  total_needed_for_15pp
+          0.10                 68            17.3                  8037                   2009                      201                    893
+          0.15                101            14.5                  5673                   1418                      213                    630
+          0.20                135            12.9                  4521                   1130                      226                    502
+          0.50                338            10.4                  2893                    723                      362                    321
+
+Reading: with P1+P2 of this size, a 15% hold-out detects only uplifts of about the MDE shown; detecting a 10-point uplift needs the total targeted group shown (apply the design to the full customer base).
